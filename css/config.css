@@ -1,0 +1,45 @@
+/* BACKGROUND */
+.deep_blue{
+    background-color: #11324D ;
+}
+.light_blue{
+    background-color: #65A0E5;
+}
+.light_purple{
+    background-color: #D1D7ED;
+}
+.white_egg{
+    background-color: #FFF5E5;
+}
+/* TEXT */
+.deep_blue_text{
+    color: #11324D ;
+}
+.light_blue_text{
+    color: #65A0E5;
+}
+.white.text{
+    color: #FFFFFF;
+}
+.black.text{
+    color: #000000;
+}
+/* FONT */
+.Lexend_bold{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.Lexend_regular{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+.Lexend_light{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
