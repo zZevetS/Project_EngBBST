@@ -32,6 +32,9 @@ body{
 .black_text{
     color: #000000;
 }
+.light_purple_text{
+    color: #D1D7ED;
+}
 /* Img */
 .logo_main_header{
     width: 88px;
@@ -124,6 +127,6 @@ body{
     margin-top: 20px;
 }
 .footer_listitem:hover{
-    color: gray;
+    color: #65A0E5;
     cursor: pointer;
 }
