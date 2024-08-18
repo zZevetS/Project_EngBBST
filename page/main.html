@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/config.css">
+    <link rel="stylesheet" href="/css/main.css">
     <!-- Lexend Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,29 +17,72 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="container_header deep_blue">
-        <div class="header">
-             <a href="/page/main.html" class="header_list light_purple_text Lexend_bold header_fontsize hl_home link_decorate">TRANG CHỦ</a>
-             <a href="/page/product.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">SẢN PHẨM</a>
-             <a class="header_list light_purple_text Lexend_bold " href="/page/main.html">
-                 <img style="margin-top: -30px !important;" class="logo_main_header" src="/images/logomain.png" alt="logobrand">
-             </a>
-             <a href="/page/bbst.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">CÔNG NGHỆ BBST</a>
-             <a href="/page/author.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TÁC GIẢ</a>
+        <div class="container_header">
+            <nav class="header deep_blue">
+                <a href="/page/main.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TRANG CHỦ</a>
+                <a href="/page/product.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">SẢN PHẨM</a>
+                <a class="header_list light_purple_text Lexend_bold " href="/page/main.html">
+                    <img class="logo_main_header" src="/images/logomain.png" alt="logobrand">
+                </a>
+                <a href="/page/bbst.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">CÔNG NGHỆ BBST</a>
+                <a href="/page/author.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TÁC GIẢ</a>
+           </nav>
+           <!-- Mobile Navigation -->
+           <label for="nav_mobile-input" class="header_navmobile">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 
+                      128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32
+                      448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+           </label>
+           <input type="checkbox" hidden class="nav_input" id="nav_mobile-input">
+           <label for="nav_mobile-input" class="nav_overlay"></label>
+
+           <nav class="nav_mobile deep_blue">
+                <label for="nav_mobile-input" class="nav__mobile-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <div class="nav_mobile-element">
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="/page/main.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TRANG CHỦ</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-book"></i>
+                        <a href="/page/product.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">SẢN PHẨM</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-passport"></i>
+                        <a href="/page/bbst.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">CÔNG NGHỆ BBST</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-person"></i>
+                        <a href="/page/author.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TÁC GIẢ</a>
+                    </div>
+                </div>
+                <hr style="position:absolute; top: 85%; width: 100%;"/>
+                <div class="nav_mobile_footer Lexend_bold light_purple_text ">ESPEEDING EDUCATION</div>
+            </nav>
         </div>
-    </header>
     <!-- content area -->
-    <div class="Lexend_bold">"Trang Chủ"</div>
+    <div class="slider">
+        <img class="banner" src="/images/banner01.png" alt="banner01">
+    </div>
+    <div class="slider">
+        <img class="banner" src="/images/banner01.png" alt="banner01">
+    </div>
 
     <!-- Footer -->
     <footer class="container_footer deep_blue">
         <div class="footer">
             <div class="footer_left">
-                <img class="logo_main_footer lg_footer" src="/images/logomain.png" alt="">
+                <div>
+                    <img class="logo_main_footer lg_footer" src="/images/logomain.png" alt="">
+                </div>
+                <div>
                     <p class="Lexend_regular white_text footer_para">Tìm kiếm cảm hứng từ những câu chuyện, tác phẩm văn học bằng tiếng <br> 
                         Anh, giúp bạn trau dồi vốn từ và nâng cao khả năng đọc hiểu.</p>
+                </div>
             </div>
-            <div style="width: 2px; height: 200px; background-color: white; margin: 0 10px;"></div>
+            <div class="footer_spit"></div>
             <div class="footer_right">
                 <div class="footer_list white_text Lexend_bold">Về Chúng Tôi
                     <div class="footer_listitem Lexend_light">
@@ -66,7 +110,7 @@
                 </div>
             </div>
         </div>  
-        <div class="Lexend_regular" style="color: white; text-align: end; padding-right: 12px; padding-bottom: 12px;">© 2024 tencongty</div>
+        <div class="Lexend_regular copyright_text">© 2024 EspeedingEducation</div>
     </footer>
 </body>
 </html>
