@@ -2,10 +2,128 @@
     width: 100%;
     height: 30%;
 }
+.element1{
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+}
+.element1_card{
+  padding: 1em 1em 0 1em;
+  width: max-content;
+  height: max-content;
+  transform: translateY(0%);
+  box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
+  background-color: rgb(255, 255, 255);
+}
+.element1_moreinfobtn{
+  margin-left: 2.8em;
+  margin-bottom: 0.5em;
+  border-radius: 10px;
+  font-size: 1.3em;
+  width: 18em;
+  height: 2.8em;
+  color: white;
+  display: none;
+}
+.element1_card:hover .element1_moreinfobtn{
+  height: max-content;
+  width: 19em;
+  height: 2.5em;
+  display: block;
+  background-color: #11324D;
+  cursor: pointer;
+  position: relative;
+  bottom: 22em;
+}
+.element1_card:hover{
+  padding: 1em 1em 0 1em;
+  width: max-content;
+  height: 50em;
+  transform: translateY(-2%);
+  background-color: rgb(255, 255, 255);
+}
+.element1_title{
+  background-color: #AEB4B2;
+  text-align: center;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 25em;
+  height: 1.8em;
+  padding-top: 20px;
+  font-size: 3em;
+}
+.element1_para{
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+}
+.element1_moreinfotexts{
+  color: white;
+}
+.moreinfo_text{
+  text-align: center;
+  padding: 0.5em;
+  font-size: 1.8em;
+}
+.element1_product{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3em;
+}
+.element1_item-title{
+  text-align: center;
+  font-size: 1.3em;
+}
 
-
-
-
+.element2{
+  margin-top: 8em;
+  display: flex;
+}
+.element2_box{
+  margin-top: 5em;
+}
+.element2_title{
+  font-size: 3em;
+  margin-left: 0.6em;
+}
+.element2_text{
+  font-size: 2em;
+  margin-top: 1em;
+  margin-left: 1.1em;
+}
+.element2_para{
+  margin-top: 1.5em;
+  font-size: 1.5em;
+  margin-left: 1.5em;
+}
+.element2_img{
+  width: 70em;
+  height: 40em;
+}
+.element2_moreinfobtn{
+  margin-top: 8em;
+  margin-left: 8em;
+  margin-bottom: 0.5em;
+  border-radius: 10px;
+  font-size: 1.3em;
+  width: 30em;
+  height: 3em;
+  color: white;
+  background-color: #11324D;
+}
+.element2_moreinfobtn:hover{
+  margin-top: 8em;
+  margin-left: 8em;
+  margin-bottom: 0.5em;
+  border-radius: 10px;
+  font-size: 1.3em;
+  width: 30em;
+  height: 3em;
+  color: white;
+  background-color: #65A0E5;
+  border: #65A0E5;
+  cursor: pointer;
+}
 /* RESPONSIVE */
 /* Mobile: width < 740px */
 @media only screen and (max-width: 46.1875em) {
