@@ -118,19 +118,18 @@
 }
 
 .writting_1 {
-    width: 452px; 
+    width: 25em; 
     height: 120px; 
-    left: 0px; 
+    left: -60px; 
     top: 330px; 
     position: absolute; 
     text-align: center; 
     color: black; 
     font-size: 30px; 
-    font-family: Lexend; 
-    font-weight: 700; 
     letter-spacing: 3.60px;
     word-wrap: break-word;
     font-size: x-large;
+    max-width: 40em;
 }
 
 .title_1 {
@@ -212,9 +211,7 @@
     top: 363px; 
     position: absolute; 
     text-align: center; 
-    color: black; 
-    font-family: Lexend; 
-    font-weight: 700; 
+    color: black;
     letter-spacing: 3.60px; 
     word-wrap: break-word;
     font-size: x-large;
@@ -354,16 +351,15 @@
 }
 
 .writting_3 {
-    width: 318px; 
+    max-width: 40em;
+    width: 17em; 
     height: 50px; 
-    left: -4em; 
+    left: -5em; 
     top: 450px; 
     position: absolute; 
     text-align: center; 
     color: black; 
     font-size: x-large; 
-    font-family: Lexend; 
-    font-weight: 700; 
     letter-spacing: 3.60px; 
     word-wrap: break-word;
 }
