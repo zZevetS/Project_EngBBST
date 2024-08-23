@@ -39,6 +39,7 @@
 .container
 {
     display: flex;
+    width: 100%;
 }
 .container_left1
 {
@@ -72,6 +73,7 @@
 {
     margin-bottom: 120px;
 }
+/* Nút mua ngay */
 .product_button
 {
     display: inline-flex;
@@ -84,10 +86,21 @@
     text-align: center;
     font-size: 25px;
     border-radius: 8px; 
-    margin-top: 1.5em;
+    margin-top: -5em;
     margin-left: 11em;
     cursor: pointer;
 
+}
+
+.container_rightt
+{
+    width: 40em;
+    margin: 20px auto;
+    margin-left: 220px;
+    background-color: #fcfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 25px 25px rgba(0, 0, 0, 0.3);
 }
 
 .container_left_book
@@ -101,7 +114,7 @@
 .container_right_book1
 {
     margin-top: 130px;
-    max-width: 60em;
+    max-width: 70em;
 }
 
 .container_right_book2
@@ -115,12 +128,12 @@
 .container_right_booktext1
 {
     font-size: 40px;
-    margin-left: 9em;
+    margin-left: 3em;  /*Chữ thông tin sách */
 }
 .container_right_booktext2
 {
     font-size: 32px; 
-    margin-left: 8.5em;
+     margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
 }
 .container_right_booktext3
 {
