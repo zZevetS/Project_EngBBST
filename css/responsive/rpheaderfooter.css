@@ -157,6 +157,7 @@
 /* Tablet: width >= 740px and width < 1024px  */
 @media only screen and (min-width: 46.25em) and (max-width: 64.0625em) {
     .header{
+        width: 100%;
         position: fixed;
         z-index: 999;
     }
