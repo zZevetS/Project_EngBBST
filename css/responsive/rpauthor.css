@@ -1,0 +1,71 @@
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    * {
+        box-sizing: border-box;
+      }
+   
+    
+    .container_header{
+        width: 100%;
+        max-width: 782px;
+        margin: 0 auto; 
+    }
+    
+    .container_content_author{
+        display: block;
+    }
+    .content_left {
+        width: 50%;
+        padding:0 30px;
+    }
+    
+    .content_left_circle{
+        transform: translate(-53%,-50%);
+        left: 100%;
+
+    }
+    .content_left_img{
+        
+    }
+    .container_content{
+        padding: 0 24px;
+        height: 1350px;
+        margin-right: 0;
+    }
+    .certificate_content_left ul {
+        padding: 0 30px;
+    }
+    .content_about_author{
+        display: block;
+        width: 750px;
+    }
+    .content_about_author p{
+        margin-right: 30px;
+    }
+    .container_certificate{
+
+    }
+    .certificate_content{
+        display: block;
+        width: 750px;
+    }
+    .certificate_content_left {
+        width: 100%;
+    }
+    .container_certificate_name {
+        width: 80%;
+    }
+    .container_certificate_name ul{
+        margin: 0 30px;
+    }
+    .certificate_content_right{
+        display: flex;
+        margin: 0 42px;
+    }
+    .banner{
+        margin-top: 1350px;
+    }
+    .banner_author{
+       
+    }
+}

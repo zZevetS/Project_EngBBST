@@ -246,7 +246,7 @@ body{
     }
     .footer{
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: space-around;
     }
@@ -258,22 +258,22 @@ body{
         width: 111%;
         font-size: 0.5em;
         text-align: center;
-        display: block;
     }
     .footer_right{
-        width: 50%;
-        margin: 3.125em 3.125em 0em 3.125em ;
+        width: 104%;
+        margin: 3.125em 6.125em 0em 7em;
         list-style: none;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-direction: row;
+        justify-content: center;
     }
     .footer_list{
-        text-align: center;
-        font-size: 1em;
+        text-align: start;
+        font-size: 0.7em;
     }
     .footer_listitem{
         font-size: 1em;
+        text-align: start;
     }
     .footer_spit{
         display: none;
@@ -287,12 +287,12 @@ body{
         height: 4em;
     }
     .copyright_text{
-        padding-top: 0.7em;
+        padding-top: 1.7em;
         font-size: 0.6em;
-        color: white; 
-        text-align: end; 
+        color: white;
+        text-align: end;
         padding-right: 0.75em;
-        padding-bottom: 2em;
+        padding-bottom: 3.8em;
     }
     .lg_footer{
         margin-left: 43%;
@@ -307,6 +307,9 @@ body{
 }
 /* Tablet: width >= 740px and width < 1024px  */
 @media only screen and (min-width: 46.25em) and (max-width: 64.0625em) {
+    .header{
+        position: fixed;
+    }
     .header_fontsize{
         font-size: 1em;
     }

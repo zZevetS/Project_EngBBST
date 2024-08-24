@@ -7,7 +7,8 @@
 .container_content{
     background-color: #FFF5E5;
     width: 100%;
-    height: 1800px;
+    height: 1650px;
+    
     padding: 0 120px;
     
 }
@@ -40,7 +41,7 @@
 .content_left_circle{
     position: absolute;
     top: 50%; /* Đặt hình tròn ở giữa theo chiều dọc */
-    left: 50%; /* Đặt hình tròn ở giữa theo chiều ngang */
+    left: 60%; /* Đặt hình tròn ở giữa theo chiều ngang */
     transform: translate(-75%, -50%);
     height: 650px;
 }
@@ -72,7 +73,7 @@
 
 }
 .certificate_content_left ul{
-
+    margin-top: 40px;
 }
 .certificate_content_left li{
     font-size: 30px;
@@ -97,6 +98,7 @@
 .certificate_content_right{
     width: 50%;
     text-align: center;
+    top:0;
 }
 .certificate_content_right_up{
    
@@ -120,8 +122,76 @@
 
 .content_footer_bbst{
     margin-top: 50px;
-    width: 60%;
+    width: 100%;
 }
 .bbst_name_content p {
     font-size: 30px;
+    width: auto;
+}
+.bbst_name_content{
+    width: 50%;
+}
+.bbst_footer{
+    display: flex;
+    width: 100%;
+
+}
+.button_bbst{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+/*  */
+.button_bbst a {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 3rem;
+    margin:40px 0 0 150px;
+    font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #0D4C7F;
+    color: #000;
+    text-decoration: none; /* Loại bỏ gạch chân của thẻ a */
+}
+
+.button_bbst a span{
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    
+}
+
+.button_bbst a:hover span {
+    color: white;
+}
+
+.button_bbst a::before,
+.button_bbst a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.button_bbst a::before {
+    content: "";
+    color:#000;
+    background: #4D9FE3;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button_bbst a:hover::before {
+    transform: translate3d(100%, 0, 0);
 }
