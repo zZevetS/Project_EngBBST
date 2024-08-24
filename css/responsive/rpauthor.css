@@ -353,7 +353,7 @@
     .certificate_content {
         display: block !important;
         width: 750px !important;
-        margin: 0 auto !important; /* Căn chỉnh vào giữa */
+         /* Căn chỉnh vào giữa */
     }
 
     .certificate_content_left {
@@ -362,7 +362,7 @@
     }
 
     .container_certificate_name {
-        width: 80% !important;
+       
         margin: 0 auto !important; /* Căn chỉnh vào giữa */
     }
 
