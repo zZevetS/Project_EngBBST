@@ -69,8 +69,8 @@
 
 /* HEADER FOOTER RESPONSIVE */
 /* 1em = 16px */
-/* Mobile: width < 740px */
-@media only screen and (max-width: 46.1875em) {
+/* Mobile:width > 343px && width < 576px */
+@media only screen and (min-width: 343px) and (max-width: 576px) {
     /* Header */
     .container_header{
         background-color: #11324D ;
@@ -154,17 +154,17 @@
         font-size: 1em;
     }
 }
-/* Tablet: width >= 740px and width < 1024px  */
-@media only screen and (min-width: 46.25em) and (max-width: 64.0625em) {
+/* Tablet: width > 798 and width < 1025px  */
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
     .header{
-        position: fixed;
+        width: 100%;
         z-index: 999;
     }
     .header_fontsize{
         font-size: 1em;
     }
     .footer_list{
-        width: 10em;
+        width: 9em;
         text-align: center;
         font-size: 0.6em;
     }

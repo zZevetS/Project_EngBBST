@@ -69,6 +69,7 @@
   text-align: center;
   font-size: 1.3em;
 }
+
 /* ELEMENT 2 */
 .element2{
   margin-top: 8em;
@@ -107,28 +108,63 @@
   height: 0.1px;
 }
 .element2_moreinfobtn{
-  margin-top: 8em;
-  margin-left: 5em;
-  margin-bottom: 0.5em;
-  border-radius: 10px;
-  font-size: 1.3em;
-  width: 30em;
-  height: 3em;
-  color: white;
-  background-color: #11324D;
+  width: 75%;
+  height: auto;
+  text-align: center;
 }
-.element2_moreinfobtn:hover{
-  margin-top: 8em;
-  margin-left: 5em;
-  margin-bottom: 0.5em;
-  border-radius: 10px;
-  font-size: 1.3em;
-  width: 30em;
-  height: 3em;
-  color: white;
-  background-color: #124f96;
-  border: #124f96;
+.element2_moreinfobtn a {
+  width: 15em;
+  outline: none;
   cursor: pointer;
+  border: none;
+  padding: 1rem 3rem;
+  margin: 1.2em 0 0 8em;
+  font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #4D9FE3 ; 
+  color: #ffffff;
+  text-decoration: none; /* Loại bỏ gạch chân của thẻ a */
+}
+
+.element2_moreinfobtn a span{
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  
+}
+
+.element2_moreinfobtn a:hover span {
+  color: white;
+}
+
+.element2_moreinfobtn a::before,
+.element2_moreinfobtn a::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.element2_moreinfobtn a::before {
+  content: "";
+  color:#000;
+  background: #0D4C7F;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.element2_moreinfobtn a:hover::before {
+  transform: translate3d(100%, 0, 0);
 }
 /* ELEMENT 3 */
 .element3_title{
@@ -159,28 +195,64 @@
   margin-top: 0.5em;
 }
 .element3_moreinfobtn{
-  margin-top: 4em;
-  margin-left: 31em;
-  margin-bottom: 2em;
-  border-radius: 10px;
-  font-size: 1.3em;
-  width: 30em;
-  height: 3em;
-  color: white;
-  background-color: #11324D;
+  width: 75%;
+  height: auto;
+  text-align: center;
 }
-.element3_moreinfobtn:hover{
-  margin-top: 4em;
-  margin-left: 31em;
-  margin-bottom: 2em;
-  border-radius: 10px;
-  font-size: 1.3em;
-  width: 30em;
-  height: 3em;
-  color: white;
-  background-color: #124f96;
-  border: #124f96;
+.element3_moreinfobtn a {
+  width: 25em;
+  outline: none;
   cursor: pointer;
+  border: none;
+  padding: 1rem 3rem;
+  margin-bottom: 1em;
+  margin:2em 0 1.3em 20em;
+  font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #4D9FE3 ; 
+  color: #ffffff;
+  text-decoration: none; /* Loại bỏ gạch chân của thẻ a */
+}
+
+.element3_moreinfobtn a span{
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+  
+}
+
+.element3_moreinfobtn a:hover span {
+  color: white;
+}
+
+.element3_moreinfobtn a::before,
+.element3_moreinfobtn a::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.element3_moreinfobtn a::before {
+  content: "";
+  color:#000;
+  background: #0D4C7F;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.element3_moreinfobtn a:hover::before {
+  transform: translate3d(100%, 0, 0);
 }
 
 
