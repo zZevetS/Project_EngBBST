@@ -7,7 +7,7 @@
     
     .container_header{
         width: 100%;
-        max-width: 782px;
+        max-width: 820px;
         margin: 0 auto; 
     }
     
@@ -67,5 +67,20 @@
     }
     .banner_author{
        
+    }
+    .bbst_footer{
+        display: inline-block;
+    }
+    .bbst_name_content{
+        width: 100%;
+    }
+    .content_footer{
+        padding: 0 40px;
+    }
+    .button_bbst{
+        width: 100%;
+    }
+    .button_bbst a{
+        margin: 40px 0 0 0;
     }
 }
