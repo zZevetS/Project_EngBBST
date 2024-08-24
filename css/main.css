@@ -118,7 +118,7 @@
   cursor: pointer;
   border: none;
   padding: 1rem 3rem;
-  margin: 35px 0 0 125px;
+  margin: 1.2em 0 0 8em;
   font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
   font-size: 25px;
   position: relative;
@@ -206,7 +206,7 @@
   border: none;
   padding: 1rem 3rem;
   margin-bottom: 1em;
-  margin:2em 0 1.3em 17em;
+  margin:2em 0 1.3em 20em;
   font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
   font-size: 25px;
   position: relative;
