@@ -1,7 +1,7 @@
 .frame {
     padding: 12.2px;
     width: 117.4em;
-    background-color: #ffffff;
+    background-color: #B7D3E9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -18,10 +18,9 @@
 }
 
 .bbst_line {
-    width: 200px;
-    height: 3px;
-    background-color: #000;
-    margin: 2px;
+    width: 166px; 
+    height: 0px; 
+    border: 2px black solid;
 }
 .frame p {
     font-size: 2rem;
@@ -79,27 +78,294 @@
     margin-right: 2em; /* Khoảng cách giữa các cột */
 }
 
+.frame_study {
+    padding: 0.11em;
+    width: 118.7em;
+    background-color: #cfd6ed;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70em;
+}
+
 .text_study {
-    font-size: 3em;
-    padding: 3em;
-    margin-left: 12em;
+    font-size: 4em;
+    display: flex;
+    margin-top: -5em;
 }
 
 .study_line {
     width: 200px;
     height: 3px;
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -2em;
     margin-left: 2.5em;
     margin-bottom: 2em;
 }
+  
+.step-1 {
+    width: 452px; 
+    height: 450px; 
+    position: relative;
+    margin-left: -100em;
+    margin-top: 2em;
+    font-size: small;
+}
 
-.frame_study {
-    width: 20em;
-    height: 20em;
-    background-color: aqua;
-    margin-left: 2em;
+.writting_1 {
+    width: 25em; 
+    height: 120px; 
+    left: -60px; 
+    top: 330px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 30px; 
+    letter-spacing: 3.60px;
+    word-wrap: break-word;
+    font-size: x-large;
+    max-width: 40em;
+}
+
+.title_1 {
+    width: 301px; 
+    height: 61px; 
+    left: 74px; 
+    top: 269px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 38px; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 4.56px; 
+    word-wrap: break-word;
+    font-size: xx-large;
+}
+
+.group_1 {
+    width: 196px; 
+    height: 242px; 
+    left: 127px; 
+    top: 0px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.location_1 {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.location_1 {
+    width: 220px; 
+    height: 242px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+}
+
+.number_1 {
+    width: 20px; 
+    height: 45px; 
+    left: 97px; 
+    top: 70px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 45px; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 5.40px; 
+    word-wrap: break-word;
+}
+
+.step-2 {
+    width: 500px; 
+    height: 480px; 
+    position: relative;
+    margin-top: -30em;
+    margin-left: 6em;
+}
+
+.writting_2 {
+    width: 380px; 
+    height: 222px; 
+    left: 0px; 
+    top: 363px; 
+    position: absolute; 
+    text-align: center; 
+    color: black;
+    letter-spacing: 3.60px; 
+    word-wrap: break-word;
+    font-size: x-large;
+}
+
+.group_2 {
+    width: 196px; 
+    height: 237px; 
+    left: 120px; 
+    margin-left: -40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.location_2 {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.location_2 {
+    width: 220px; 
+    height: 242px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+}
+
+.number_2 {
+    width: 79px; 
+    height: 68px; 
+    left: 72px; 
+    top: 70px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 45px; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 5.40px; 
+    word-wrap: break-word;
+}
+
+.title_2 {
+    width: 371px; 
+    height: 61px; 
+    left: 1px; 
+    top: 282px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 4.56px; 
+    word-wrap: break-word;
+    font-size: xx-large;
+}
+
+.step-3 {
+    width: 200px; 
+    height: 423px; 
+    position: relative;
+    margin-left: 90em;
+    margin-top: -33em;
+}
+
+.group_3 {
+    width: 50px; 
+    height: 238px; 
+    left: -3em; 
+    top: 5em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.location_3 {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+
+.location_3 {
+    width: 220px; 
+    height: 242px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+}
+.number_3 {
+    width: 50px; 
+    height: 52.33px; 
+    left: 86px; 
+    top: 70px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 45px; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 5.40px; 
+    word-wrap: break-word;
+}
+
+.title_3 {
+    width: 400px; 
+    height: 61px; 
+    left: -4em; 
+    top: 330px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: xx-large; 
+    font-family: Lexend; 
+    font-weight: 700; 
+    letter-spacing: 4.56px; 
+    word-wrap: break-word;
+}
+
+.writting_3 {
+    max-width: 40em;
+    width: 17em; 
+    height: 50px; 
+    left: -5em; 
+    top: 450px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: x-large; 
+    letter-spacing: 3.60px; 
+    word-wrap: break-word;
 }
 .icon_study i {
+    font-size: 100px;
+    margin-top: 350px;
     color: #000000; /* Màu mặc định của icon */
     transition: color 0.3s ease; /* Tạo hiệu ứng mượt mà khi chuyển màu */
 }
