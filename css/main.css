@@ -16,19 +16,19 @@
   background-color: rgb(255, 255, 255);
 }
 .element1_moreinfobtn{
-  margin-left: 3em;
+  margin-left: 1em;
   margin-bottom: 0.5em;
   border-radius: 10px;
   font-size: 1.3em;
-  width: 18em;
+  width: 15em;
   height: 2.8em;
   color: white;
   display: none;
 }
 .element1_card:hover .element1_moreinfobtn{
-  height: max-content;
   width: 19em;
   height: 2.5em;
+  margin-left: 3em;
   display: block;
   background-color: #11324D;
   cursor: pointer;
@@ -73,6 +73,12 @@
 .element2{
   margin-top: 8em;
   display: flex;
+}
+.element2_line{
+  width: 18.75em;
+  height: 4px;
+  background-color: #000;
+  margin: 2em 2em;
 }
 .element2_box{
   margin-top: 5em;
