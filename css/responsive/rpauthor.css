@@ -60,9 +60,10 @@
     }
     .certificate_content_right{
         display: flex;
+        margin: 0 42px;
     }
     .banner{
-        margin-top: 1000px;
+        margin-top: 1350px;
     }
     .banner_author{
        
