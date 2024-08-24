@@ -1,0 +1,328 @@
+/* Ipad Air */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .frame {
+        width: 48.7em;
+    }
+
+    .frame h2{
+        font-size: 5em;
+    }
+
+    .frame p {
+        width: 24em;
+    }
+
+    .frame_icon {
+        padding: 2em;
+        width: 10em;
+        background-color: #dbe8f7;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 8em;
+        margin-left: -9.5em;
+        
+    }
+    .icon {
+        width: 20em;
+        padding: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .icon > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%; /* Đảm bảo mỗi cột chiếm khoảng 1/3 không gian */
+    }
+    .icon img {
+        width: 7em;
+        height: auto;
+        max-width: 50em;
+        object-fit: contain;
+        margin-bottom: 1em; /* Khoảng cách giữa hình ảnh và chữ */
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .icon .text {
+        justify-content: center;
+        text-align: center;
+        margin: 1.1em; /* Loại bỏ margin mặc định của p */
+        font-size: 1em;
+        width: auto;
+    }
+    
+    /* Tùy chọn: Thêm khoảng cách giữa các cột nếu cần */
+    .icon > div:not(:last-child) {
+        margin-right: 10em; /* Khoảng cách giữa các cột */
+    }
+
+    .frame_study {
+        padding: 0.11em;
+        width: 50em;
+        background-color: #cfd6ed;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70em;
+    }
+
+    .text_study {
+        font-size: 3em;
+    }
+    
+    .study_line {
+        margin-left: 0.2em;
+        margin-top: -1em;
+    }
+
+    .step-1 {
+        width: 350px; 
+        height: 450px; 
+        position: relative;
+        margin-left: -40em;
+        margin-top: 2em;
+        font-size: small;
+    }
+    
+    .writting_1 {
+        width: 10em; 
+        height: 120px; 
+        left: 80px; 
+        top: 330px; 
+        font-size: 30px; 
+        word-wrap: break-word;
+        font-size: large;
+        max-width: 40em;
+    }
+    
+    .title_1 {
+        width: 301px; 
+        height: 61px; 
+        left: 20px; 
+        top: 269px;  
+        font-size: 38px; 
+        font-size: x-large;
+    }
+    
+    .group_1 {
+        width: 196px; 
+        height: 242px; 
+        left: 110px; 
+        top: 60px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .location_1 {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+        background-color: currentColor;
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+    }
+    
+    .location_1 {
+        width: 120px; 
+        height: 242px;  
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+    }
+    
+    .number_1 {
+        width: 20px; 
+        height: 68px;  
+        left: 53px; 
+        top: 93px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 23px; 
+        font-family: Lexend; 
+        font-weight: 700; 
+        letter-spacing: 5.40px; 
+        word-wrap: break-word;
+    }
+    
+    .step-2 {
+        width: 100px; 
+        height: 480px; 
+        position: relative;
+        margin-top: -23.8em;
+        margin-left: -12em;
+    }
+    
+    .group_2 {
+        width: 50px; 
+        height: 120px; 
+        left: 120px; 
+        margin-left: -40px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .location_2 {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+        background-color: currentColor;
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+    }
+    
+    .location_2 {
+        width: 120px; 
+        height: 242px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+    }
+    
+    .number_2 {
+        width: 20px; 
+        height: 68px; 
+        left: 53px; 
+        top: 94px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 23px; 
+        font-family: Lexend; 
+        font-weight: 700; 
+        letter-spacing: 5.40px; 
+        word-wrap: break-word;
+    }
+    
+    .title_2 {
+        width: 371px; 
+        height: 61px; 
+        left: -35px; 
+        top: 200px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-weight: 700; 
+        letter-spacing: 4.56px; 
+        word-wrap: break-word;
+        font-size: x-large;
+    }
+
+    .writting_2 {
+        width: 200px; 
+        height: 222px; 
+        left: 40px; 
+        top: 250px; 
+        position: absolute; 
+        text-align: center; 
+        color: black;
+        letter-spacing: 3.60px; 
+        word-wrap: break-word;
+        font-size: large;
+    }
+
+    .step-3 {
+        width: 200px; 
+        height: 423px; 
+        position: relative;
+        margin-left: 20em;
+        margin-top: -20em;
+    }
+    
+    .group_3 {
+        width: 50px; 
+        height: 238px; 
+        left: 4em; 
+        top: 5em; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .location_3 {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
+        background-color: currentColor;
+        -webkit-mask-image: var(--svg);
+        mask-image: var(--svg);
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+    }
+    
+    .location_3 {
+        width: 120px; 
+        height: 242px;  
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+    }
+    .number_3 {
+        width: 20px; 
+        height: 68px;
+        left: 53px; 
+        top: 94px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: 23px; 
+        font-family: Lexend; 
+        font-weight: 700; 
+        letter-spacing: 5.40px; 
+        word-wrap: break-word;
+    }
+    
+    .title_3 {
+        width: 300px; 
+        height: 61px; 
+        left: -4em; 
+        top: 330px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: x-large;  
+        font-weight: 700; 
+        letter-spacing: 4.56px; 
+        word-wrap: break-word;
+    }
+    
+    .writting_3 {
+        max-width: 40em;
+        width: 18em; 
+        height: 50px; 
+        left: -5em; 
+        top: 450px; 
+        position: absolute; 
+        text-align: center; 
+        color: black; 
+        font-size: large; 
+        letter-spacing: 3.60px; 
+        word-wrap: break-word;
+    }
+}
