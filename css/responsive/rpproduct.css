@@ -1,6 +1,6 @@
 /* Tablet */
 /* Ipad Mini */
-@media screen and (min-width: 768px) and (max-width:1024px){
+@media only screen and (min-width: 768px) and (max-width:1024px){
     /* Phần đầu bí quyết học tiếng anh */
     .product_name1 {
         font-size: 25px;
@@ -245,4 +245,7 @@
         font-size: 14px;
       }
 }
+
+
+/* Ipad Air */
 
