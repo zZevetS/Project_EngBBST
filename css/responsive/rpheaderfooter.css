@@ -70,7 +70,7 @@
 /* HEADER FOOTER RESPONSIVE */
 /* 1em = 16px */
 /* Mobile:width > 343px && width < 576px */
-@media only screen and (min-width: 343px) and (max-width: 576px) {
+@media only screen and (min-width: 319px) and (max-width: 576px) {
     /* Header */
     .container_header{
         background-color: #11324D ;
@@ -165,7 +165,7 @@
     }
     .footer_list{
         width: 9em;
-        text-align: center;
+        text-align: start;
         font-size: 0.6em;
     }
     .footer_listitem{
@@ -218,4 +218,31 @@
         padding-right: 0.75em;
     }
 }
-
+@media only screen and (min-width: 1439px){ 
+    .container_footer {
+        width: 100%;
+        height: 24em;
+    }
+    .footer_left{
+        width: 39em;
+        margin: 1px;
+    }
+    .footer_right {
+        width: 54%;
+        margin: 3.125em;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_list {
+        font-size: 1.5em;
+        padding: 1.25em;
+    }
+    .footer_spit{
+        display: none;
+        width: 0.125em; 
+        height: 12.5em; 
+        margin: 0 10px;
+        background-color: white;
+    }
+}

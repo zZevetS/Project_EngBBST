@@ -559,3 +559,121 @@
     transform: translate3d(100%, 0, 0);
   }
 }
+
+/* LAPTOP L */
+@media only screen and (min-width: 1439px) {
+  .element1_product{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3em;
+  }
+  .element1_card{
+    padding: 1em 1em 0 1em;
+    width: max-content;
+    height: max-content;
+    box-shadow: 15px 10px 15px 10px rgba(0, 0, 0, 0.3); 
+    background-color: rgb(255, 255, 255);
+  }
+  .element1_moreinfobtn{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 15em;
+    height: 2.8em;
+    color: white;
+    display: none;
+  }
+  .element1_card:hover .element1_moreinfobtn{
+    width: 15em;
+    height: 2.5em;
+    margin-left: 1.5em;
+    display: block;
+    background-color: #11324D;
+    cursor: pointer;
+    position: relative;
+    bottom: 18em;
+  }
+  .element1_card:hover{
+    padding: 1em 1em 0 1em;
+    width: max-content;
+    height: 40em;
+    transform: translateY(-2%);
+    background-color: rgb(255, 255, 255);
+  }
+  .element1_title{
+    background-color: #AEB4B2;
+    text-align: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 25em;
+    height: 1.8em;
+    padding-top: 20px;
+    font-size: 3em;
+  }
+  .element1_para{
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+  }
+  .element1_moreinfotexts{
+    color: white;
+  }
+  .element1_item-img{
+    width: 23em;
+    height: 32em;
+  }
+  /* ELEMENT 2 */
+  .element2_img {
+    width: 44em;
+    height: 25em;
+  }
+  .element2_box {
+    margin-top: 1em;
+  }
+  .element2_moreinfobtn a {
+    width: 15em;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 3rem;
+    margin: 1.2em 0 0 5em;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  /* ELEMENT 3 */
+  .element3_moreinfobtn a {
+    width: 25em;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 3rem;
+    margin-bottom: 1em;
+    margin: 2em 0 1.3em 15em;
+    font-family: 'Lexend', sans-serif;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .element3_icon {
+    font-size: 10em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+  }
+}
