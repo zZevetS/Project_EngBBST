@@ -62,6 +62,10 @@
         margin-right: 10em; /* Khoảng cách giữa các cột */
     }
 
+    .right {
+        left: 40%;
+    }
+    
     .frame_study {
         padding: 0.11em;
         width: 50em;
@@ -327,4 +331,8 @@
         letter-spacing: 3.60px; 
         word-wrap: break-word;
     }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    
 }

@@ -68,6 +68,7 @@
 
 .icon .text {
     text-align: center;
+    justify-content: center;
     margin: 1em; /* Loại bỏ margin mặc định của p */
     font-size: 2em;
     width: auto;
@@ -78,29 +79,11 @@
     margin-right: 2em; /* Khoảng cách giữa các cột */
 }
 
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 40px 0;
-    text-align: left;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #FF6F61;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
 .container {
     padding: 20px 30px;
     position: relative;
     width: 50%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .left {
@@ -108,7 +91,7 @@
 }
 
 .right {
-    left: 40%;
+    left: 46%;
 }
 
 .content {
@@ -116,6 +99,7 @@
     background-color: #ccedf6;
     position: relative;
     border-radius: 8px;
+    transition: background-color 0.3s ease;
 }
 
 .left .content {
@@ -126,6 +110,13 @@
     margin-left: 30px;
 }
 
+.left .content:hover {
+    color: aliceblue;
+}
+
+.right .content:hover {
+    color: aliceblue;
+}
 .container::after {
     content: '';
     position: absolute;
@@ -133,7 +124,7 @@
     height: 25px;
     right: -12px;
     background-color: #7A9AC6;
-    border: 4px solid #ffecd8;
+    border: 4px solid #c8edf7;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -164,26 +155,19 @@
     left: -120px;
 }
 
-.container .icon {
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
-    border: 2px solid #FF6F61;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px;
-    font-size: 24px;
-    color: #FF6F61;
+.container:hover {
+    transform: translateY(-10px);
 }
 
+.container:hover .content {
+    background-color: #11324D;
+}
+
+
 .frame_study {
+    background-color: #B7D3E9;
     padding: 0.11em;
     width: 118.7em;
-    background-color: #cfd6ed;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -464,4 +448,31 @@
     font-size: x-large; 
     letter-spacing: 3.60px; 
     word-wrap: break-word;
+}
+
+.step-1:hover, .step-2:hover, .step-3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.writting_1:hover, .writting_2:hover, .writting_3:hover {
+    color: #ff6600; /* Đổi màu chữ khi hover */
+    transition: color 0.3s ease-in-out;
+}
+
+.title_1:hover, .title_2:hover, .title_3:hover {
+    color: #ff3300; /* Đổi màu tiêu đề khi hover */
+    transform: translateY(-5px); /* Đẩy tiêu đề lên trên một chút khi hover */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.number_1:hover, .number_2:hover, .number_3:hover {
+    color: #ff0000; /* Đổi màu số thứ tự khi hover */
+    transform: rotate(10deg); /* Xoay nhẹ số khi hover */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.group_1:hover .location_1, .group_2:hover .location_2, .group_3:hover .location_3 {
+    background-color: #0099ff; /* Đổi màu background của location khi hover */
+    transition: background-color 0.3s ease-in-out;
 }
