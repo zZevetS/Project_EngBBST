@@ -154,8 +154,8 @@
         font-size: 1em;
     }
 }
-/* Tablet: width > 798 and width < 1025px  */
-@media only screen and (min-width: 744px) and (max-width: 1025px) {
+/* Tablet: width > 667 and width < 1025px  */
+@media only screen and (min-width: 666px) and (max-width: 1025px) {
     .header{
         width: 100%;
         z-index: 999;
