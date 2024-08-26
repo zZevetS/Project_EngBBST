@@ -72,8 +72,10 @@
 
 /* ELEMENT 2 */
 .element2{
+  justify-content: space-between;
   margin-top: 8em;
   display: flex;
+  width: 100%;
 }
 .element2_line{
   width: 18.75em;
