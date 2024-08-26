@@ -218,6 +218,7 @@
         padding-right: 0.75em;
     }
 }
+/* LabtopL */
 @media only screen and (min-width: 1439px){ 
     .container_footer {
         width: 100%;
@@ -236,7 +237,7 @@
     }
     .footer_list {
         font-size: 1.5em;
-        padding: 1.25em;
+        padding: 1.25em;  
     }
     .footer_spit{
         display: none;
