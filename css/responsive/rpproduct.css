@@ -4,7 +4,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     /* Phần đầu bí quyết học tiếng anh */
     .product_name1 {
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 0px;
     }
     .product_hr_right, .product_hr_left {
@@ -14,15 +14,9 @@
 
     /* Phần đầu định hướng ielts... */
     .product_name2 {
-        font-size: 25px;
+        font-size: 24px;
     }
-    
-    /* chữ bên trái */
-    .container
-    {
-        display: flex;
-        width: 100%;
-    }
+
     /* chỉnh chữ cẩm nang */
     .container_left1
     {
@@ -48,10 +42,6 @@
     }
 
     /*2 hình bên phải*/
-    .container_right
-    {
-        margin-top: 2em;
-    }
     .container_right_img1
     {
         margin-right: 10px; 
@@ -82,12 +72,7 @@
     .container_rightt
     {
         width: 23em;
-        margin: 0px auto;
         margin-left: 30px;
-        background-color: #fefdfd;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
     }
     
     /* chỉnh khung */
@@ -101,10 +86,6 @@
     {
         margin-top: 1em;
     }
-    .container_right_book3
-    {
-        margin-top: 1em;
-    }
     .container_right_booktext1
     {
         font-size: 25px;
@@ -115,32 +96,12 @@
         font-size: 20px; 
         margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
     }
-    .container_right_booktext3
-    {
-        font-weight: bold;
-    }
-
       /* Nút mua ngay */
       .product_button
       {
-          display: inline-flex;
-          align-items: center; 
-          justify-content: center;
-          background-color: #11324D;
-          color: white;
-          width: 20em;
-          height: 3em;
-          text-align: center;
-          font-size: 20px;
-          border-radius: 8px; 
-          margin-top: -5em;
-          margin-left: 1.7em;
-      
-      }
-      .product_button:hover
-      {
-          background-color: #124f96;
-          cursor: pointer;
+        width: 20em;
+        font-size: 20px;
+        margin-left: 1.7em;
       }
     /*Chữ nổi gạch chân*/
     .container_text
@@ -160,64 +121,19 @@
     /* Xem thêm, thu nhỏ  */
     h2 
     {
-        font-size: 35px;
-        margin-bottom: 3px;
         margin-left: 50px;
     }
     
     .text-content 
     {
-        position: relative;
         max-height: 490px; /* Chiều cao ban đầu */
-        overflow: hidden;
-        transition: max-height 0.5s ease;
     }
     .description
     {
-        font-size: 25px;
         margin-left: 50px;
         margin-right: 50px;
     }
-    .text-content.expanded {
-        max-height: fit-content; /* Chiều cao mở rộng */
-    }
-    
-    .text-content::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px; /* Chiều cao của lớp mờ dần */
-        background: linear-gradient(transparent, white);
-        transition: opacity 0.5s ease;
-    }
-    
-    .text-content.expanded::after 
-    {
-        opacity: 0; /* Ẩn lớp mờ dần khi mở rộng */
-    }
-    
-    #toggle-button {
-        display: block;
-        text-align: center;
-        color: #007bff;
-        text-decoration: none; /* Bỏ gạch chân */
-        margin-top: 10px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    
-    #toggle-button:hover {
-        text-decoration: none; /* Bỏ gạch chân */
-    }
-
     /* SẢN PHẨM TƯƠNG TỰ */
-    .product
-    {
-        display: flex;
-        flex-direction: row;
-    }
     .product_img
     {
          width: 280px;
@@ -225,26 +141,15 @@
     }
     .product_card
     {
-        margin-top: 2em;
-        margin-bottom: 3em;
         margin-left: 3em;
-        padding: 1em 1em 0 1em;
-        width: max-content;
         height: 430px;
-        transform: translateY(0%);
-        box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-      }
-      .product_card:hover
-      {
-        cursor: pointer;
-        transform: translateY(-3%);
-      }
-      .product_item-title{
+    }
+    .product_item-title
+    {
         margin-right: 10px;
         text-align: center;
         font-size: 14px;
-      }
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
@@ -261,13 +166,6 @@
     /* Phần đầu định hướng ielts... */
     .product_name2 {
         font-size: 25px;
-    }
-    
-    /* chữ bên trái */
-    .container
-    {
-        display: flex;
-        width: 100%;
     }
     /* chỉnh chữ cẩm nang */
     .container_left1
@@ -311,7 +209,6 @@
         width: 13em;
         height: 20em;
     }
-    
     /* hình quyển sách  */
     .container_left_book
     {
@@ -323,17 +220,11 @@
         width: 23em;
         height: 30em;
     }
-
     /* Cái khung */
     .container_rightt
     {
         width: 23em;
-        margin: 0px auto;
         margin-left: 5em;
-        background-color: #fefdfd;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
     }
     
     /* chỉnh khung */
@@ -347,10 +238,6 @@
     {
         margin-top: 1em;
     }
-    .container_right_book3
-    {
-        margin-top: 1em;
-    }
     .container_right_booktext1
     {
         font-size: 25px;
@@ -361,32 +248,13 @@
         font-size: 20px; 
         margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
     }
-    .container_right_booktext3
-    {
-        font-weight: bold;
-    }
-
       /* Nút mua ngay */
       .product_button
       {
-          display: inline-flex;
-          align-items: center; 
-          justify-content: center;
-          background-color: #11324D;
-          color: white;
           width: 19em;
-          height: 3em;
-          text-align: center;
           font-size: 20px;
-          border-radius: 8px; 
           margin-top: -5em;
           margin-left: 4.7em;
-      
-      }
-      .product_button:hover
-      {
-          background-color: #124f96;
-          cursor: pointer;
       }
     /*Chữ nổi gạch chân*/
     .container_text
@@ -402,21 +270,10 @@
         margin-top: 2px;
     
     }
-
     /* Xem thêm, thu nhỏ  */
     h2 
     {
-        font-size: 35px;
-        margin-bottom: 3px;
         margin-left: 50px;
-    }
-    
-    .text-content 
-    {
-        position: relative;
-        max-height: 450px; /* Chiều cao ban đầu */
-        overflow: hidden;
-        transition: max-height 0.5s ease;
     }
     .description
     {
@@ -424,46 +281,7 @@
         margin-left: 50px;
         margin-right: 50px;
     }
-    .text-content.expanded {
-        max-height: fit-content; /* Chiều cao mở rộng */
-    }
-    
-    .text-content::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px; /* Chiều cao của lớp mờ dần */
-        background: linear-gradient(transparent, white);
-        transition: opacity 0.5s ease;
-    }
-    
-    .text-content.expanded::after 
-    {
-        opacity: 0; /* Ẩn lớp mờ dần khi mở rộng */
-    }
-    
-    #toggle-button {
-        display: block;
-        text-align: center;
-        color: #007bff;
-        text-decoration: none; /* Bỏ gạch chân */
-        margin-top: 10px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    
-    #toggle-button:hover {
-        text-decoration: none; /* Bỏ gạch chân */
-    }
-
     /* SẢN PHẨM TƯƠNG TỰ */
-    .product
-    {
-        display: flex;
-        flex-direction: row;
-    }
     .product_img
     {
          width: 280px;
@@ -471,275 +289,22 @@
     }
     .product_card
     {
-        margin-top: 2em;
-        margin-bottom: 3em;
         margin-left: 3em;
-        padding: 1em 1em 0 1em;
-        width: max-content;
         height: 430px;
-        transform: translateY(0%);
-        box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-      }
-      .product_card:hover
-      {
-        cursor: pointer;
-        transform: translateY(-3%);
-      }
-      .product_item-title{
+    }
+    .product_item-title
+    {
         margin-right: 10px;
         text-align: center;
         font-size: 14px;
-      }
+    }
 }
 
 /* Màn hình từ khoảng width > 820px && width < 1280px */
 /* Ipad Air */ 
-@media screen and (min-width:820px) and (max-width:1280px) and (orientation:portrait)
+/* @media screen and (min-width:820px) and (max-width:1280px) and (orientation:portrait)
 {
-    /* Phần đầu bí quyết học tiếng anh */
-    .product_name1 {
-        font-size: 35px;
-        margin-top: 1px;
-    }
-    .product_hr_right, .product_hr_left {
-        margin-left: 5em;
-        margin-right: 5em;
-    }
-
-    /* Phần đầu định hướng ielts... */
-    .product_name2 {
-        font-size: 40px;
-    }
-    
-    /* chữ bên trái */
-    .container
-    {
-        display: flex;
-        width: 100%;
-    }
-    /* chỉnh chữ cẩm nang */
-    .container_left1
-    {
-        margin-top: 9em;
-        max-width: 39em;
-        margin-left: 1em;
-    }
-    .container_left_text1
-    {
-        font-size: 33px;
-        margin-left: 20px;     
-    }
-    /* chỉnh chữ trong */
-    .container_left2
-    {
-        margin-top: 2em;
-        margin-left: 20px;
-    }
-    .container_left_text2
-    {
-        font-size: 25px;
-        margin-left:0px;
-    }
-
-    /*2 hình bên phải*/
-    .container_right
-    {
-        margin-top: 3.5em;
-    }
-    .container_right_img1
-    {
-        margin-right: 1em; 
-        margin-left: 1em;
-        width: 16em;
-        height: 24em;
-    }
-    .container_right_img2
-    {
-        margin-bottom: 120px;
-        width: 16em;
-        height: 24em;
-    }
-    
-    /* hình quyển sách  */
-    .container_left_book
-    {
-        margin-top: 5em;
-    }
-    .container_left_imgbook
-    {
-        margin-left: 3em;
-    }
-
-    /* Cái khung */
-    .container_rightt
-    {
-        width: 31.5em;
-        margin: 20px auto;
-        margin-left: 3em;
-        background-color: #fefdfd;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
-    }
-    
-    /* chỉnh khung */
-    .container_right_book1
-    {
-        margin-top: 110px;
-        max-width: 70em;
-        
-    }
-    /* chỉnh thông tin sách chi tiết */
-    .container_right_book2
-    {
-        margin-top: 2em;
-    }
-    .container_right_book3
-    {
-        margin-top: 1em;
-    }
-    .container_right_booktext1
-    {
-        font-size: 34px;
-        margin-left: 3em;  /*Chữ thông tin sách */
-    }
-    .container_right_booktext2
-    {
-        font-size: 28.5px; 
-         margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
-    }
-    .container_right_booktext3
-    {
-        font-weight: bold;
-    }
-
-      /* Nút mua ngay */
-      .product_button
-    {
-        display: inline-flex;
-        align-items: center; 
-        justify-content: center;
-        background-color: #11324D;
-        color: white;
-        width: 18em;
-        height: 3em;
-        text-align: center;
-        font-size: 30px;
-        border-radius: 8px; 
-        margin-top: -5em;
-        margin-left: 1.7em;
-
-    }
-    .product_button:hover
-    {
-        background-color: #124f96;
-        cursor: pointer;
-    }
-
-    /*Chữ nổi gạch chân*/
-    .container_text
-    {
-        margin-left: 4em;
-        margin-top: 3em;
-        font-size: 20px;
-    }
-    .detail_line
-    {
-        width: 370px;
-        height: 3px;
-        background-color: #000;
-        margin-top: 2px;
-    }
-
-    /* Xem thêm, thu nhỏ  */
-    h2 
-    {
-        font-size: 36px;
-        margin-bottom: 3px;
-        margin-left: 110px;
-    }
-
-    .text-content 
-    {
-        position: relative;
-        max-height: 450px; /* Chiều cao ban đầu */
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-    }
-    .description
-    {
-        font-size: 30px;
-        margin-left: 110px;
-        margin-right: 110px;
-    }
-    .text-content.expanded {
-        max-height: fit-content; /* Chiều cao mở rộng */
-    }
-
-    .text-content::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px; /* Chiều cao của lớp mờ dần */
-        background: linear-gradient(transparent, white);
-        transition: opacity 0.5s ease;
-    }
-
-    .text-content.expanded::after 
-    {
-        opacity: 0; /* Ẩn lớp mờ dần khi mở rộng */
-    }
-
-    #toggle-button {
-        display: block;
-        text-align: center;
-        color: #007bff;
-        text-decoration: none; /* Bỏ gạch chân */
-        margin-top: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    #toggle-button:hover {
-        text-decoration: none; /* Bỏ gạch chân */
-    }
-    /* SẢN PHẨM TƯƠNG TỰ */
-    .product
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .product_img
-    {
-        width: 400px;
-        height: 490px;
-    }
-    .product_card
-    {
-        margin-top: 3em;
-        margin-bottom: 3em;
-        margin-left: 7em;
-        padding: 1em 1em 0 1em;
-        width: max-content;
-        height: 610px;
-        transform: translateY(0%);
-        box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-    }
-    .product_card:hover
-    {
-        cursor: pointer;
-        transform: translateY(-3%);
-    }
-    .product_item-title{
-        margin-right: 10px;
-        text-align: center;
-        font-size: 22px;
-    }
-}
+} */
 
 /* @media screen and (min-width:820px) and (max-width:1280px) and (orientation:landscape)
 {} */
@@ -755,18 +320,6 @@
     .product_hr_right, .product_hr_left {
         margin-left: 5em;
         margin-right: 5em;
-    }
-
-    /* Phần đầu định hướng ielts... */
-    .product_name2 {
-        font-size: 40px;
-    }
-    
-    /* chữ bên trái */
-    .container
-    {
-        display: flex;
-        width: 100%;
     }
     /* chỉnh chữ cẩm nang */
     .container_left1
@@ -791,7 +344,6 @@
         font-size: 30px;
         margin-left:0px;
     }
-
     /*2 hình bên phải*/
     .container_right
     {
@@ -810,158 +362,43 @@
         width: 19em;
         height: 28em;
     }
-    
-    /* hình quyển sách  */
-    .container_left_book
-    {
-        margin-top: 5em;
-    }
     .container_left_imgbook
     {
         margin-left: 8em;
     }
-
     /* Cái khung */
     .container_rightt
     {
-        width: 40em;
-        margin: 20px auto;
         margin-left: 6em;
-        background-color: #fefdfd;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.2);
     }
     
     /* chỉnh khung */
     .container_right_book1
     {
         margin-top: 110px;
-        max-width: 70em;
-        
+        max-width: 70em; 
     }
-    /* chỉnh thông tin sách chi tiết */
-    .container_right_book2
-    {
-        margin-top: 2em;
-    }
-    .container_right_book3
-    {
-        margin-top: 1em;
-    }
-    .container_right_booktext1
-    {
-        font-size: 40px;
-        margin-left: 3em;  /*Chữ thông tin sách */
-    }
-    .container_right_booktext2
-    {
-        font-size: 32px; 
-         margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
-    }
-    .container_right_booktext3
-    {
-        font-weight: bold;
-    }
-
       /* Nút mua ngay */
       .product_button
     {
-        display: inline-flex;
-        align-items: center; 
-        justify-content: center;
-        background-color: #11324D;
-        color: white;
         width: 20em;
         height: 3em;
-        text-align: center;
         font-size: 30px;
-        border-radius: 8px; 
-        margin-top: -5em;
         margin-left: 4.5em;
 
     }
-    .product_button:hover
-    {
-        background-color: #124f96;
-        cursor: pointer;
-    }
-
     /*Chữ nổi gạch chân*/
     .container_text
     {
         margin-left: 4em;
-        margin-top: 3em;
-        font-size: 20px;
-    }
-    .detail_line
-    {
-        width: 370px;
-        height: 3px;
-        background-color: #000;
-        margin-top: 2px;
     }
 
     /* Xem thêm, thu nhỏ  */
-    h2 
-    {
-        font-size: 36px;
-        margin-bottom: 3px;
-        margin-left: 110px;
-    }
-
-    .text-content 
-    {
-        position: relative;
-        max-height: 450px; /* Chiều cao ban đầu */
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-    }
     .description
     {
         font-size: 30px;
-        margin-left: 110px;
-        margin-right: 110px;
-    }
-    .text-content.expanded {
-        max-height: fit-content; /* Chiều cao mở rộng */
-    }
-
-    .text-content::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px; /* Chiều cao của lớp mờ dần */
-        background: linear-gradient(transparent, white);
-        transition: opacity 0.5s ease;
-    }
-
-    .text-content.expanded::after 
-    {
-        opacity: 0; /* Ẩn lớp mờ dần khi mở rộng */
-    }
-
-    #toggle-button {
-        display: block;
-        text-align: center;
-        color: #007bff;
-        text-decoration: none; /* Bỏ gạch chân */
-        margin-top: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    #toggle-button:hover {
-        text-decoration: none; /* Bỏ gạch chân */
     }
     /* SẢN PHẨM TƯƠNG TỰ */
-    .product
-    {
-        display: flex;
-        flex-direction: row;
-    }
     .product_img
     {
         width: 400px;
@@ -969,202 +406,14 @@
     }
     .product_card
     {
-        margin-top: 3em;
-        margin-bottom: 3em;
-        margin-left: 7em;
-        padding: 1em 1em 0 1em;
-        width: max-content;
         height: 610px;
-        transform: translateY(0%);
-        box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-    }
-    .product_card:hover
-    {
-        cursor: pointer;
-        transform: translateY(-3%);
     }
     .product_item-title{
         margin-right: 10px;
-        text-align: center;
-        font-size: 22px;
-    }
- 
-}
-
-@media only screen and (min-width: 1366px) and (min-width: 1024px)and  (orientation: landscape) 
-{
-     /* Phần đầu bí quyết học tiếng anh */
-     .product_name1 {
-        font-size: 40px;
-        margin-top: 0px;
-    }
-    .product_hr_right, .product_hr_left {
-        margin-left: 5em;
-        margin-right: 5em;
-    }
-
-    /* Phần đầu định hướng ielts... */
-    .product_name2 {
-        font-size: 45px;
-    }
-    
-    /* chữ bên trái */
-    .container
-    {
-        display: flex;
-        width: 100%;
-    }
-    /* chỉnh chữ cẩm nang */
-        .container_left1
-    {
-        margin-top: 200px;
-        max-width: 60em;
-        margin-left: 2.5em;
-    }
-    .container_left_text1
-    {
-        font-size: 45px;
-        margin-left: 110px;
-    }
-    /* chỉnh chữ trong */
-        .container_left2
-    {
-        margin-top: 3em;
-    }
-    .container_left_text2
-    {
-        font-size: 30px;
-        margin-left: 110px;
-    }
-
-    /*2 hình bên phải*/
-    .container_right
-    {
-        margin-top: 3.5em;
-    }
-    .container_right_img1
-    {
-        margin-right: 2em; 
-        margin-left: 8em;
-    }
-    .container_right_img2
-    {
-        margin-bottom: 120px;
-    }
-     /* hình quyển sách  */
-    .container_left_book
-    {
-        margin-top: 5em;
-    }
-    .container_left_imgbook
-    {
-        margin-left: 18em;
-    }
-
-    /*Chữ nổi gạch chân*/
-    .container_text
-    {
-        margin-left: 4em;
-        margin-top: 3em;
-        font-size: 22px;
-    }
-    .detail_line
-    {
-        width: 360px;
-        height: 3px;
-        background-color: #000;
-        margin-top: 2px;
-    }
-
-    /* Xem thêm, thu nhỏ  */
-    h2 
-    {
-        font-size: 36px;
-        margin-bottom: 3px;
-        margin-left: 110px;
-    }
-
-    .text-content 
-    {
-        position: relative;
-        max-height: 425px; /* Chiều cao ban đầu */
-        overflow: hidden;
-        transition: max-height 0.5s ease;
-    }
-    .description
-    {
-        font-size: 30px;
-        margin-left: 110px;
-        margin-right: 110px;
-    }
-    .text-content.expanded {
-        max-height: fit-content; /* Chiều cao mở rộng */
-    }
-
-    .text-content::after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 50px; /* Chiều cao của lớp mờ dần */
-        background: linear-gradient(transparent, white);
-        transition: opacity 0.5s ease;
-    }
-
-    .text-content.expanded::after 
-    {
-        opacity: 0; /* Ẩn lớp mờ dần khi mở rộng */
-    }
-
-    #toggle-button {
-        display: block;
-        text-align: center;
-        color: #007bff;
-        text-decoration: none; /* Bỏ gạch chân */
-        margin-top: 10px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    #toggle-button:hover {
-        text-decoration: none; /* Bỏ gạch chân */
-    }
-    /* SẢN PHẨM TƯƠNG TỰ */
-    .product
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .product_img
-    {
-        width: 400px;
-        height: 500px;
-    }
-    .product_card
-    {
-        margin-top: 3em;
-        margin-bottom: 3em;
-        margin-left: 7em;
-        padding: 1em 1em 0 1em;
-        width: max-content;
-        height: 610px;
-        transform: translateY(0%);
-        box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-    }
-    .product_card:hover
-    {
-        cursor: pointer;
-        transform: translateY(-3%);
-    }
-    .product_item-title{
-        margin-right: 10px;
-        text-align: center;
         font-size: 22px;
     }
 }
+
 
 
 
