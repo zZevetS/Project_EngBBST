@@ -154,8 +154,8 @@
         font-size: 1em;
     }
 }
-/* Tablet: width > 798 and width < 1025px  */
-@media only screen and (min-width: 744px) and (max-width: 1025px) {
+/* Tablet: width > 667 and width < 1025px  */
+@media only screen and (min-width: 666px) and (max-width: 1025px) {
     .header{
         width: 100%;
         z-index: 999;
@@ -218,6 +218,7 @@
         padding-right: 0.75em;
     }
 }
+/* LabtopL */
 @media only screen and (min-width: 1439px){ 
     .container_footer {
         width: 100%;
@@ -236,7 +237,7 @@
     }
     .footer_list {
         font-size: 1.5em;
-        padding: 1.25em;
+        padding: 1.25em;  
     }
     .footer_spit{
         display: none;
