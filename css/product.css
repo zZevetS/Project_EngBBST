@@ -36,19 +36,19 @@
         background-color: #000000;
     }
 
-    .container
-    {
+    .container {
         display: flex;
         width: 100%;
+        justify-content: space-evenly;
     }
     .container_left1
     {
         margin-top: 200px;
-        max-width: 52em;
+        max-width: 53em;
     }
     .container_left_text1
     {
-        font-size: 40px;
+        font-size: 3em;
         margin-left: 110px;
     }
     .container_left2
