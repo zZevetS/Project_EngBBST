@@ -279,7 +279,7 @@
     }
 }
   
-  /* Tablet: width > 667 and width < 1025px  */
+  /* Tablet: width > 667 and width < 1025px dọc  */
 @media only screen and (min-width: 666px) and (max-width: 1025px) {
   .element1 {
     margin-bottom: 2em;
@@ -293,7 +293,7 @@
     text-align: center;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    width: 95%;
+    width: 60%;
     height: 1.8em;
     padding-top: 20px;
     font-size: 1.5em;
@@ -559,6 +559,12 @@
     transform: translate3d(100%, 0, 0);
   }
 }
+@media only screen and (min-width: 1023px) and (max-width: 1601px){
+
+}
+
+
+
 
 /* LAPTOP L */
 @media only screen and (min-width: 1026px) and (max-width: 1441px){
@@ -668,18 +674,5 @@
     width: 78%;
     height: auto;
     text-align: center;
-  }
-}
-/* ipad air vs pro */
-@media only screen and (min-width: 819px){
-  .element1_title {
-    background-color: #AEB4B2;
-    text-align: center;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
-    width: 15em;
-    height: 1.8em;
-    padding-top: 20px;
-    font-size: 3em;
   }
 }
