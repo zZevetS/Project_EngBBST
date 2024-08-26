@@ -1,6 +1,6 @@
 .frame {
     padding: 12.2px;
-    width: 117.4em;
+    width: 130.6em;
     background-color: #B7D3E9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -167,7 +167,7 @@
 .frame_study {
     background-color: #B7D3E9;
     padding: 0.11em;
-    width: 118.7em;
+    width: 131.9em;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -450,29 +450,30 @@
     word-wrap: break-word;
 }
 
+/* Common styles */
+.step-1, .step-2, .step-3 {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
 .step-1:hover, .step-2:hover, .step-3:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1); /* Adjust the scale value as needed */
+    color: #FF5733; /* Change to the desired color */
 }
 
-.writting_1:hover, .writting_2:hover, .writting_3:hover {
-    color: #ff6600; /* Đổi màu chữ khi hover */
-    transition: color 0.3s ease-in-out;
+.step-1:hover .number_1, .step-2:hover .number_2, .step-3:hover .number_3 {
+    color: #FF5733;
 }
 
-.title_1:hover, .title_2:hover, .title_3:hover {
-    color: #ff3300; /* Đổi màu tiêu đề khi hover */
-    transform: translateY(-5px); /* Đẩy tiêu đề lên trên một chút khi hover */
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+/* Additional styling for specific elements inside each step */
+.step-1:hover .location_1, .step-2:hover .location_2, .step-3:hover .location_3 {
+    background-color: #FF5733; /* Change icon color on hover */
 }
 
-.number_1:hover, .number_2:hover, .number_3:hover {
-    color: #ff0000; /* Đổi màu số thứ tự khi hover */
-    transform: rotate(10deg); /* Xoay nhẹ số khi hover */
-    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+.step-1:hover .title_1, .step-2:hover .title_2, .step-3:hover .title_3 {
+    color: #FF5733; /* Change title color on hover */
 }
 
-.group_1:hover .location_1, .group_2:hover .location_2, .group_3:hover .location_3 {
-    background-color: #0099ff; /* Đổi màu background của location khi hover */
-    transition: background-color 0.3s ease-in-out;
+.step-1:hover .writting_1, .step-2:hover .writting_2, .step-3:hover .writting_3 {
+    color: #FF5733; /* Change text color on hover */
 }
