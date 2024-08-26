@@ -121,7 +121,7 @@
     /* Xem thêm, thu nhỏ  */
     h2 
     {
-        margin-left: 50px;
+        margin-left: 40px;
     }
     
     .text-content 
@@ -130,8 +130,9 @@
     }
     .description
     {
-        margin-left: 50px;
+        margin-left: 40px;
         margin-right: 50px;
+        font-size: 20px;
     }
     /* SẢN PHẨM TƯƠNG TỰ */
     .product_img
@@ -155,12 +156,12 @@
 @media only screen and (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
     /* Phần đầu bí quyết học tiếng anh */
     .product_name1 {
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 0px;
     }
     .product_hr_right, .product_hr_left {
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
     /* Phần đầu định hướng ielts... */
@@ -226,7 +227,6 @@
         width: 23em;
         margin-left: 5em;
     }
-    
     /* chỉnh khung */
     .container_right_book1
     {
@@ -261,10 +261,10 @@
     {
         margin-left: 3em;
         margin-top: 3em;
-        font-size: 13px;
+        font-size: 15px;
     }
     .detail_line{
-        width: 220px;
+        width: 17em;
         height: 3px;
         background-color: #000;
         margin-top: 2px;
@@ -277,7 +277,7 @@
     }
     .description
     {
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -302,12 +302,113 @@
 
 /* Màn hình từ khoảng width > 820px && width < 1280px */
 /* Ipad Air */ 
-/* @media screen and (min-width:820px) and (max-width:1280px) and (orientation:portrait)
+@media screen and (min-width:820px) and (max-width:1280px) and (orientation:portrait)
 {
-} */
+    .product_hr_right, .product_hr_left {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+     /* Phần đầu định hướng ielts... */
+     .product_name2 {
+        font-size: 35px;
+    }
+    /* chỉnh chữ cẩm nang */
+    .container_left1
+    {
+        margin-top: 110px;
+        max-width: 42em;
+        margin-left: 2em;
+    }
+    .container_left_text1
+    {
+        font-size: 35px;
+        margin-left: 20px;     
+    }
+    /* chỉnh chữ trong */
+    .container_left2
+    {
+        margin-top: 1em;
+        margin-left: 20px;
+    }
+    .container_left_text2
+    {
+        font-size: 24px;
+        margin-left:0px;
+    }
 
-/* @media screen and (min-width:820px) and (max-width:1280px) and (orientation:landscape)
-{} */
+    /*2 hình bên phải*/
+    .container_right_img1
+    {
+        margin-right: 10px; 
+        margin-left: 2em;
+        width: 13em;
+        height: 20em;
+    }
+    .container_right_img2
+    {
+        margin-bottom: 120px;
+        width: 14em;
+        height: 20em;
+    }
+      /* hình quyển sách  */
+      .container_left_imgbook
+      {
+          margin-left: 3.5em;
+          width:30em;
+      }
+         /* Cái khung */
+        .container_rightt
+        {
+            width: 35em;
+            margin-left: 30px;
+        }
+      /* chỉnh khung */
+      .container_right_book1
+      {
+          margin-top: 6.5em;
+      }
+      .container_right_booktext1
+      {
+          font-size: 35px;
+          margin-left: 2.7em;  /*Chữ thông tin sách */
+      }
+      .container_right_booktext2
+      {
+          font-size: 30px; 
+          margin-left: 1em;  /*Chỉnh thông tin sách chi tiết  */
+      }
+      /* Nút mua ngay */
+      .product_button
+      {
+          width: 23em;
+          height: 3em;
+          text-align: center;
+          font-size: 25px;
+          border-radius: 8px; 
+          margin-top: -6em;
+          margin-left: 2em;
+      }
+      .container_text
+      {
+          margin-left: 3em;
+      }
+      h2 
+      {
+          margin-left: 2.2em;
+      }
+  
+      .description
+    {
+        font-size: 26px;
+        margin-left: 3em;
+        margin-right: 50px;
+    }
+    .product_card
+    {
+        margin-left: 4em;
+      }
+}
+
 /* Màn hình từ khoảng width > 1024px && width < 1366px */
 /* Ipad Pro */
 @media only screen and (min-width: 1024px) and (min-width: 1366px)  and (orientation: portrait) 
@@ -394,9 +495,16 @@
     }
 
     /* Xem thêm, thu nhỏ  */
+    h2 
+    {
+        font-size: 39px;
+        margin-bottom: 3px;
+        margin-left: 2.1em;
+    }
     .description
     {
         font-size: 30px;
+        margin-left: 2.8em;
     }
     /* SẢN PHẨM TƯƠNG TỰ */
     .product_img
@@ -413,7 +521,10 @@
         font-size: 22px;
     }
 }
-
+/* @media only screen and (min-width: 1024px) and (min-width: 1366px)  and (orientation: landscape) 
+{
+    
+} */
 
 
 
