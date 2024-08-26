@@ -70,7 +70,7 @@
 /* HEADER FOOTER RESPONSIVE */
 /* 1em = 16px */
 /* Mobile:width > 343px && width < 576px */
-@media only screen and (min-width: 343px) and (max-width: 576px) {
+@media only screen and (min-width: 319px) and (max-width: 576px) {
     /* Header */
     .container_header{
         background-color: #11324D ;
@@ -154,8 +154,8 @@
         font-size: 1em;
     }
 }
-/* Tablet: width > 798 and width < 1025px  */
-@media only screen and (min-width: 767px) and (max-width: 1025px) {
+/* Tablet: width > 667 and width < 1025px  */
+@media only screen and (min-width: 666px) and (max-width: 1025px) {
     .header{
         width: 100%;
         z-index: 999;
@@ -165,7 +165,7 @@
     }
     .footer_list{
         width: 9em;
-        text-align: center;
+        text-align: start;
         font-size: 0.6em;
     }
     .footer_listitem{
@@ -173,11 +173,11 @@
         font-size: 1em;
     }
     .footer_left{
-        width: 33%;
-        margin: 0em 3.125em 0em 1.8em ;
+        width: 100%;
+        margin: 0em 0em 0em 0em ;
     }
     .footer_right{
-        width: 50%;
+        width: 100%;
         margin: 3.125em;
         list-style: none;
         display: flex;
@@ -188,23 +188,62 @@
         height: 100%;
     }
     .footer_para{
-        text-align: center;
-        width: 36em;
+        width: 100%;
         font-size: 0.5em;
-    }
-    .lg_footer{
-        margin-left: 36%;
+        text-align: center;
     }
     .logo_main_footer{
+        margin-bottom: 0.5em;
+        width: 100%;
+        height: 5em;
+    }
+    .lg_footer{
         align-items: center;
+
         width: 5em;
         height: 5em;
     }
     .footer_spit{
+        display: none;
         width: 0.125em; 
         height: 7.5em; 
         margin: 0 20px;
         background-color: white;
     }
+    .copyright_text{
+        padding-top: 1.7em;
+        font-size: 0.6em;
+        color: white;
+        text-align: end;
+        padding-right: 0.75em;
+    }
 }
-
+/* LabtopL */
+@media only screen and (min-width: 1439px){ 
+    .container_footer {
+        width: 100%;
+        height: 24em;
+    }
+    .footer_left{
+        width: 39em;
+        margin: 1px;
+    }
+    .footer_right {
+        width: 54%;
+        margin: 3.125em;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_list {
+        font-size: 1.5em;
+        padding: 1.25em;  
+    }
+    .footer_spit{
+        display: none;
+        width: 0.125em; 
+        height: 12.5em; 
+        margin: 0 10px;
+        background-color: white;
+    }
+}
