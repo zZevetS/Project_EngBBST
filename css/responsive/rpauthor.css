@@ -2,7 +2,7 @@
 
 
 /* iPad Mini ở chế độ dọc */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
     /* CSS dành riêng cho iPad Mini ở chế độ dọc */
     
     .container_header {
@@ -97,6 +97,9 @@
 /* iPad Air ở chế độ dọc */
 @media only screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
     /* CSS dành riêng cho iPad Air ở chế độ dọc */
+    .container{
+        overflow: hidden;
+    }
     .container_header {
         width: 100%;
         max-width: 820px;
@@ -104,9 +107,10 @@
     }
     /* Các quy tắc CSS khác phù hợp cho iPad Mini */
     .container_header{
-        width: 100%;
-        max-width: 820px;
+        width: auto;
+        /* max-width: 820px; */
         margin: 0 auto; 
+        overflow: hidden;
     }
     
     .container_content_author{
@@ -185,7 +189,10 @@
 }
 /* iPad Air ở chế độ ngang */
 /* CSS dành riêng cho iPad Air ở chế độ ngang */
-@media only screen and (min-width: 768px) and (max-width: 1180px) and (orientation: landscape) {
+@media only screen and (min-width: 769px) and (max-width: 1180px) and (orientation: landscape) {
+    .container{
+        overflow: hidden;
+    }
     .container_header {
         width: 100%;
         max-width: 1180px;
@@ -265,7 +272,7 @@
     }
 
     .bbst_name_content p {
-        width: 950px !important;
+        
         /* Căn chỉnh vào giữa */
     }
 
@@ -284,6 +291,10 @@
 
     .bbst_name_content {
         width: 100%;
+        
+    }
+    .bbst_name_content p {
+        font-size: 5vw!important;
     }
 
     .content_footer {
@@ -299,6 +310,7 @@
         margin: 40px 0 0 0;
         text-align: center; /* Căn chữ vào giữa */
     }
+    
 }
 /* CSS dành riêng cho iPad Pro ở chế độ ngang */
 /* CSS dành riêng cho iPad Pro ở chế độ ngang */
@@ -415,7 +427,116 @@
         text-align: center !important; /* Căn chữ vào giữa */
     }
 
+}
+/* Mobile */
+@media (max-width: 768px) {
     
+    .container_content {
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .container_content_author {
+        flex-direction: column;
+    }
+
+    .author_name h1 {
+        font-size: 6vw;
+        letter-spacing: 2px;
+    }
+
+    .content_left, .content_right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .content_left_circle {
+        height: auto;
+        width: 90%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .content_left_img{
+        height: auto;
+        width: 90%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 10px;
+    }
+
+    .content_right h2 {
+        font-size: 6vw;
+        margin: 20px 0;
+    }
+
+    .content_about_author {
+        width: 100%;
+    }
+
+    .content_about_author p {
+        font-size: 6vw;
+        padding: 0 30px 0 0;
+    }
+    .container_certificate_name h1{
+        font-size: 7vw;
+    }
+
+    .certificate_content {
+        flex-direction: column;
+    }
+
+    .container_certificate {
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .certificate_content_left, .certificate_content_right {
+        width: 100%;
+    }
+    .certificate_content_left ul{
+        padding: 0;
+    }
+    
+    .certificate_content_left li {
+        font-size: 6vw;
+        padding: 0 30px 0 0;
+        list-style: none;
+    }
+    .content_footer {
+        padding: 0 20px;
+    }
+    .certificate_content_right_up, .certificate_content_right_down{
+        padding: 0 30px 0 0;
+    }
+    .bbst_name h1{
+        font-size: 6vw;
+    }
+    .bbst_name_content {
+        width: 100%;
+    }
+
+    .button_bbst {
+        width: 100%;
+        
+    }
+
+    .button_bbst a {
+        margin: 20px 0;
+        width: 60%;
+        text-align: center;
+        
+    }
+    .bbst_footer{
+        display: inline-block;
+    }
+    .bbst_name_content p{
+        font-size: 6vw;
+    }
 }
 
 
