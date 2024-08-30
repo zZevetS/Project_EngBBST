@@ -1,7 +1,7 @@
 /* Tablet */
-@media only screen and (min-width: 666px) and (max-width: 1025px) {
+@media only screen and (min-width: 767px) and (max-width: 1025px) {
     .frame {
-        width: 54.2em;
+        width: 100%;
     }
 
     .frame h2{
@@ -91,7 +91,7 @@
         height: 450px; 
         position: relative;
         margin-left: -40em;
-        margin-top: 2em;
+        margin-top: 10em;
         font-size: small;
     }
     
@@ -103,7 +103,7 @@
         font-size: 30px; 
         word-wrap: break-word;
         font-size: large;
-        text-align: left;
+        text-align: center;
         max-width: 40em;
     }
     
@@ -168,7 +168,7 @@
         width: 100px; 
         height: 480px; 
         position: relative;
-        margin-top: -23.8em;
+        margin-top: -32em;
         margin-left: -15em;
     }
     
@@ -245,7 +245,7 @@
         letter-spacing: 3.60px; 
         word-wrap: break-word;
         font-size: large;
-        text-align: left;
+        text-align: center;
     }
 
     .step-3 {
@@ -253,7 +253,7 @@
         height: 423px; 
         position: relative;
         margin-left: 34em;
-        margin-top: -40em;
+        margin-top: -31em;
     }
     
     .group_3 {
@@ -332,6 +332,118 @@
     }
 }
 
-@media (min-width:768px) and (max-width:1024px) {
+/* Mobile */
+@media only screen and (min-width: 343px) and (max-width: 576px) {
+    .frame {
+        width: 93.6%;
+        font-size: 1.5vw;
+    } 
+
+    .bbst_line {
+        width:70px;
+        border: 1px black solid;
+    }
+
+    .frame p {
+        width: 28em;
+    }
+
+    .icon {
+        width: 93.4%;
+        padding: 0;
+    }
+
+    .icon img {
+        width: 13em;
+    }
+
+    .container {
+        padding: 20px 18px;
+    }
+    .content {
+        font-size: 2.5vw;
+    }
     
+    .right .date {
+        left: -140px;
+    }
+    
+    .right::after {
+        left: -32px;
+    }
+
+    .right {
+        left: 40%;
+    }
+
+    .frame_study {
+        width: 99%;
+    }
+    .text_study {
+        font-size: 2em;
+        margin-top: -5em;
+    }
+
+    .study_line {
+        width: 100px;
+        height: 2px;
+        margin-left: 0;
+        margin-top: -1em;
+        margin-bottom: 1em;
+    }
+
+    .step-1, .step-2, .step-3 {
+        width: 90%;
+        height: auto;
+        margin: 1.5em 0;
+        position: relative;
+    }
+
+    .writting_1, .writting_2, .writting_3 {
+        width: 100%;
+        height: auto;
+        top: auto;
+        left: auto;
+        position: static;
+        font-size: 3.5vw;
+        max-width: 100%;
+    }
+
+    .title_1, .title_2, .title_3 {
+        width: 100%;
+        height: auto;
+        top: auto;
+        left: auto;
+        position: static;
+        font-size: 4.5vw;
+        font-weight: 700;
+    }
+
+    .group_1, .group_2, .group_3 {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .location_1, .location_2, .location_3 {
+        width: 60px;
+        height: 70px;
+        top: auto;
+        left: auto;
+        position: static;
+    }
+
+    .number_1, .number_2, .number_3 {
+        width: auto;
+        height: auto;
+        top: auto;
+        margin-left: -2.3em;
+        position: static;
+        font-size: 3.8vw;
+        font-weight: 700;
+    }
 }
