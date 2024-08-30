@@ -1,7 +1,3 @@
-.frame_bbst {
-    width: 100%;
-}
-
 .frame {
     padding: 12.2px;
     width: 98.7%;
@@ -85,7 +81,7 @@
 }
 
 .container {
-    padding: 20px 30px;
+    padding: 20px 27px;
     position: relative;
     width: 50%;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -171,8 +167,8 @@
 
 .frame_study {
     background-color: #B7D3E9;
-    padding: 0.11em;
-    width: 99.8%;
+    padding: 0.19em;
+    width: 99.7%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -182,10 +178,14 @@
     height: 70em;
 }
 
+.study {
+    margin-left: -7em;
+}
 .text_study {
     font-size: 4em;
     display: flex;
     margin-top: -5em;
+    margin-left: -1em;
 }
 
 .study_line {
@@ -199,13 +199,21 @@
     margin-left: 2.5em;
     margin-bottom: 2em;
 }
-  
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các phần tử */   
+}
+
 .step-1 {
-    width: 452px; 
-    height: 450px; 
+    width: 30%;
+    margin: 0 10px; 
     position: relative;
-    margin-left: -92em;
-    margin-top: 2em;
+    margin-left: -60em;
+    margin-top: -3em;
     font-size: small;
 }
 
@@ -289,11 +297,11 @@
 }
 
 .step-2 {
-    width: 500px; 
-    height: 480px; 
+    width: 30%;
+    margin: 0 -60em;
     position: relative;
-    margin-top: -30em;
-    margin-left: 6em;
+    margin-top: -16em;
+    margin-left: -4em;
 }
 
 .writting_2 {
@@ -373,17 +381,17 @@
 }
 
 .step-3 {
-    width: 200px; 
-    height: 423px; 
+    width: 30%;
+    margin: 0 -480px; 
     position: relative;
-    margin-left: 75em;
-    margin-top: -33em;
+    margin-left: 71em;
+    margin-top: -16em;
 }
 
 .group_3 {
     width: 50px; 
     height: 238px; 
-    left: -3em; 
+    left: -10em; 
     top: 5em; 
     display: flex;
     justify-content: center;
@@ -430,7 +438,7 @@
 .title_3 {
     width: 400px; 
     height: 61px; 
-    left: -4em; 
+    left: -7.4em; 
     top: 330px; 
     position: absolute; 
     text-align: center; 
@@ -446,7 +454,7 @@
     max-width: 40em;
     width: 18em; 
     height: 50px; 
-    left: -5em; 
+    left: -11em; 
     top: 450px; 
     position: absolute; 
     text-align: center; 
