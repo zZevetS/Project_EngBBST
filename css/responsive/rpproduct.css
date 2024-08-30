@@ -1,7 +1,14 @@
 /* Mobile */
-/* Mobile:width > 343px && width < 576px */
+/* Mobile:width < 760px */
 @media only screen and (max-width: 760px) 
 {
+    .product_name_div1
+    {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        text-align: center;
+    }
     /* Phần đầu bí quyết học tiếng anh */
     .product_name1 {
         font-size: 12px;
@@ -14,13 +21,17 @@
 
     /* Phần đầu định hướng ielts... */
     .product_name2 {
-        font-size: 15px;
+        font-size: 13px;
     }
-
+    .product_name_div2
+    {
+        margin-top: 10px;
+        text-align: center;
+    }
     /* chỉnh chữ cẩm nang */
     .container_left1
     {
-        margin-top: 75px;
+        margin-top: 3.5em;
         max-width: 12em;
         margin-left: 0px;
     }
@@ -42,6 +53,10 @@
     }
 
     /*2 hình bên phải*/
+    .container_right
+    {
+        margin-top: 2em;
+    }
     .container_right_img1
     {
         margin-right: 0.2em; 
