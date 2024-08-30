@@ -1,3 +1,9 @@
+:root{
+    --fontsize-Mobile: 4vw;
+    --fontsize-Tablet: 3vw;
+
+}
+
 body{
     margin: 0px;
     height: max-content;
