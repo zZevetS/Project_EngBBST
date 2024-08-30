@@ -178,7 +178,10 @@
         margin-bottom: 3px;
         margin-left: 110px;
     }
-
+    .h2_text
+    {
+        font-size: 35px;
+    }
     .text-content 
     {
         position: relative;
