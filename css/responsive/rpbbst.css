@@ -441,9 +441,9 @@
         width: auto;
         height: auto;
         top: auto;
-        left: auto;
+        margin-left: -2.3em;
         position: static;
-        font-size: 6vw;
+        font-size: 3.8vw;
         font-weight: 700;
     }
 }
