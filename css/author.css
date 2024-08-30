@@ -1,15 +1,15 @@
 .container{
     width: 100%;
-    
+    overflow: hidden;
     margin-bottom: 100px;
     
 }
 .container_content{
     background-color: #FFF5E5;
     width: 100%;
-    height: 1650px;
+    height: 110vw;
     
-    padding: 0 120px;
+    padding: 0 80px;
     
 }
 
@@ -29,7 +29,7 @@
 }
 .author_name h1{
     margin:0;
-    font-size: 2em;
+    font-size: 2vw;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -43,11 +43,11 @@
     top: 50%; /* Đặt hình tròn ở giữa theo chiều dọc */
     left: 60%; /* Đặt hình tròn ở giữa theo chiều ngang */
     transform: translate(-75%, -50%);
-    height: 650px;
+    height: 40vw;
 }
 .content_left_img{
     margin:30px 0 0 20px;
-    height: 650px;
+    height: 40vw;
 
 }
 .content_right{
@@ -55,15 +55,17 @@
     margin-top: 50px;
 }
 .content_right h2{
-    font-size:35px;
+    font-size:2vw;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5;
     margin: 40px 0;
 }
 .content_about_author{
     width: 70%; 
 }
 .content_about_author p{
-    font-size: 30px;
+    font-size: 2vw;
 }
 .container_certificate{
     margin-top: 90px;
@@ -76,12 +78,12 @@
     margin-top: 40px;
 }
 .certificate_content_left li{
-    font-size: 30px;
+    font-size: 2vw;
     margin: 20px 0;
 }
 .container_certificate_name h1{
     
-    font-size:2em;
+    font-size:2vw;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 700;
@@ -100,18 +102,18 @@
     text-align: center;
     top:0;
 }
-.certificate_content_right_up{
-   
-}
+
 .certificate_content_right_up img{
     margin: 10px;
 }
-.certificate_content_right_down{
-    
+.banner{
+    margin-top: 30px;
 }
+
 .certificate_content_right_down img{
     margin: 10px;
 }
+
 .banner_author{
     
     width: 100%;
@@ -130,6 +132,11 @@
 }
 .bbst_name_content{
     width: 50%;
+}
+.bbst_name h1 {
+    font-size: 2vw;
+    letter-spacing: 5;
+    text-transform: uppercase;
 }
 .bbst_footer{
     display: flex;

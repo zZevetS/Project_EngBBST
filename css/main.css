@@ -101,7 +101,7 @@
 }
 .element2_para{
   margin-top: 1.5em;
-  font-size: 1.5em;
+  font-size: 1.76em;
   margin-left: 1.0em;
   margin-right: 0.2em;
 }
@@ -115,8 +115,9 @@
   height: 0.1px;
 }
 .element2_moreinfobtn{
-  width: 65%;
+  width: 100%;
   height: auto;
+  align-items: center;
   text-align: center;
 }
 .element2_moreinfobtn a {
@@ -125,7 +126,7 @@
   cursor: pointer;
   border: none;
   padding: 1rem 2rem;
-  margin: 1.2em 0 0 8em;
+  margin-top: 0.3em;
   font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
   font-size: 20px;
   position: relative;
@@ -198,12 +199,13 @@
 }
 .element3_icon{
   font-size: 10em;
-  margin-left: 0.8em;
+  text-align: center;
   margin-top: 0.5em;
 }
 .element3_moreinfobtn{
   width: 65%;
   height: auto;
+  margin: auto;
   text-align: center;
 }
 .element3_moreinfobtn a {
@@ -213,7 +215,6 @@
   border: none;
   padding: 1rem 3rem;
   margin-bottom: 1em;
-  margin:2em 0 1.3em 20em;
   font-family: 'Lexend', sans-serif; /* Thay đổi font-family theo yêu cầu */
   font-size: 25px;
   position: relative;
