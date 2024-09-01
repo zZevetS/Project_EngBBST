@@ -76,8 +76,8 @@
         background-color: #11324D ;
     } 
     .container_header{
-    width: 100%;
-    height: 6.5em;
+        width: 100%;
+        height: 6.5em;
     }
     .header{ 
         display: none;
@@ -88,6 +88,25 @@
         margin-top: 2em;
         margin-right: 2em;
         display: block;
+    }
+    .mobile_header_title {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center; 
+        color: white;
+        width: 100%;
+        height: 56px; 
+        margin-top: 18px;
+        padding-top: 0; 
+        padding-bottom: 0; 
+        font-size: 1.2em; 
+        padding-left: 0.5em;
+    }
+    .mobile_header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
     /* Footer */
     .container_footer{
@@ -136,9 +155,9 @@
         width: 4em;
         height: 4em;
     }
-    .copyright_text{
+    .copyright_text {
         padding-top: 1.7em;
-        font-size: 0.6em;
+        font-size: 0.7em;
         color: white;
         text-align: end;
         padding-right: 0.75em;
@@ -153,6 +172,7 @@
         text-align: center;
         font-size: 1em;
     }
+    
 }
 /* Tablet: width > 667 and width < 1025px  */
 @media only screen and (min-width: 666px) and (max-width: 1025px) {
@@ -184,6 +204,7 @@
         justify-content: space-around;
     }
     .container_footer{
+        padding-bottom: 2px;
         width: 100%;
         height: 100%;
     }
@@ -218,8 +239,62 @@
         padding-right: 0.75em;
     }
 }
+@media only screen and (min-width: 1179px) and (max-width: 1367px){
+    .header_fontsize {
+        font-size: 1em;
+    }
+    /* Img */
+    .logo_main_header{
+        width: 4em;
+        height: 4em;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .footer_left{
+        margin: 0px;
+    }
+    .footer_right{
+        width: 50%;
+        margin: 0em;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .lg_footer{
+        margin-left: 38%;
+    }
+    .footer_para{
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer_list{
+        font-size: 1.2em;
+        padding: 1em;
+    }
+    .container_footer {
+        width: 100%;
+        height: 17em;
+    }
+    .footer_spit{
+        display: none;
+    }
+    .logo_main_footer{
+        width: 5em;
+        height: 5em;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 2em;
+        justify-content: space-around;
+    }
+}
 /* LabtopL */
 @media only screen and (min-width: 1439px){ 
+    .header_fontsize {
+        font-size: 1.3em;
+    }
     .container_footer {
         width: 100%;
         height: 24em;

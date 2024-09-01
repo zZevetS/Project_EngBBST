@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/config.css">
     <link rel="stylesheet" href="/css/product.css">  
+    <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/responsive/rpproduct.css">
     <link rel="stylesheet" href="/css/responsive/rpheaderfooter.css">
     <!-- Lexend Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!--  -->
     <link rel="icon" type="image/png" href="/images/logomain.png">
     <title>Cẩm Nang Ngữ Pháp Tiếng Anh Siêu Tốc Cho Người Việt</title>
 </head>
 <body>
-    <!-- Header -->
-    <div class="container_header">
+     <!-- Header -->
+     <div class="container_header">
         <nav class="header deep_blue">
             <a href="/page/main.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TRANG CHỦ</a>
             <a href="/page/product.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">SẢN PHẨM</a>
@@ -30,39 +31,43 @@
             <a href="/page/author.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TÁC GIẢ</a>
        </nav>
        <!-- Mobile Navigation -->
-       <label for="nav_mobile-input" class="header_navmobile">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 
-                  128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32
-                  448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-       </label>
-       <input type="checkbox" hidden class="nav_input" id="nav_mobile-input">
-       <label for="nav_mobile-input" class="nav_overlay"></label>
-
-       <nav class="nav_mobile deep_blue">
-            <label for="nav_mobile-input" class="nav__mobile-close">
-                <i class="fa-solid fa-xmark"></i>
+       <div class="mobile_header">
+            <div class="mobile_header_title Lexend_bold wow bounce">EspeedingEducation</div>
+            <div>
+                <label for="nav_mobile-input" class="header_navmobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 
+                        128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32
+                        448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
             </label>
-            <div class="nav_mobile-element">
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-house"></i>
-                    <a href="/page/main.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TRANG CHỦ</a>
+            <input type="checkbox" hidden class="nav_input" id="nav_mobile-input">
+            <label for="nav_mobile-input" class="nav_overlay"></label>
+            <nav class="nav_mobile deep_blue">
+                <label for="nav_mobile-input" class="nav__mobile-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <div class="nav_mobile-element">
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="/page/main.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TRANG CHỦ</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-book"></i>
+                        <a href="/page/product.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">SẢN PHẨM</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-passport"></i>
+                        <a href="/page/bbst.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">CÔNG NGHỆ BBST</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-person"></i>
+                        <a href="/page/author.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TÁC GIẢ</a>
+                    </div>
                 </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-book"></i>
-                    <a href="/page/product.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">SẢN PHẨM</a>
-                </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-passport"></i>
-                    <a href="/page/bbst.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">CÔNG NGHỆ BBST</a>
-                </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-person"></i>
-                    <a href="/page/author.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TÁC GIẢ</a>
-                </div>
+                <hr style="position:absolute; top: 85%; width: 100%;"/>
+                <div class="nav_mobile_footer Lexend_bold light_purple_text ">ESPEEDING EDUCATION</div>
+            </nav>
             </div>
-            <hr style="position:absolute; top: 85%; width: 100%;"/>
-            <div class="nav_mobile_footer Lexend_bold light_purple_text ">ESPEEDING EDUCATION</div>
-        </nav>
+       </div>
     </div>
     <!-- content area -->
     <div class="product_name_div1">
@@ -176,24 +181,6 @@
         <a class="Lexend_bold" id="toggle-button" style="font-size: 23px;">Xem thêm</a>
     </div>
     <script src="/jvs/script.js"></script>
-
-    <div class="Lexend_bold deep_blue_text container_text">
-        <h1>SẢN PHẨM TƯƠNG TỰ</h1>
-        <div class="detail_line"></div>
-    </div>
-    
-    <div class="product">
-        <div class="product_card">
-            <img class="product_img" src="/images/sach01.png" alt="sach01">
-            <h4 class="product_item-title Lexend_bold">CẨM NANG NGỮ PHÁP TIẾNG ANH <br> SIÊU TỐC CHO NGƯỜI VIỆT</h4>
-        </div>
-        <div class="product_card">
-            <img class="product_img" src="/images/sach01.png" alt="sach01">
-            <h4 class="product_item-title Lexend_bold">CẨM NANG NGỮ PHÁP TIẾNG ANH <br> SIÊU TỐC CHO NGƯỜI VIỆT</h4>
-        </div>
-        <!-- Bạn có thể thêm các thẻ product_card khác tại đây -->
-    </div>
-    
     <!-- Footer -->
     <footer class="container_footer deep_blue">
         <div class="footer">
@@ -236,5 +223,9 @@
         </div>  
         <div class="Lexend_regular copyright_text">© 2024 EspeedingEducation</div>
     </footer>
+    <script src="/jvs/wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
 </body>
 </html>

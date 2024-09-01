@@ -19,7 +19,7 @@
     <title>Tác Giả - TS. Nguyễn Trọng Giao</title>
 </head>
 <body>
-    <!-- Header -->
+      <!-- Header -->
     <div class="container_header">
         <nav class="header deep_blue">
             <a href="/page/main.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TRANG CHỦ</a>
@@ -31,39 +31,43 @@
             <a href="/page/author.html" class="header_list light_purple_text Lexend_bold header_fontsize link_decorate">TÁC GIẢ</a>
        </nav>
        <!-- Mobile Navigation -->
-       <label for="nav_mobile-input" class="header_navmobile">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 
-                  128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32
-                  448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-       </label>
-       <input type="checkbox" hidden class="nav_input" id="nav_mobile-input">
-       <label for="nav_mobile-input" class="nav_overlay"></label>
-
-       <nav class="nav_mobile deep_blue">
-            <label for="nav_mobile-input" class="nav__mobile-close">
-                <i class="fa-solid fa-xmark"></i>
+       <div class="mobile_header">
+            <div class="mobile_header_title Lexend_bold wow bounce">EspeedingEducation</div>
+            <div>
+                <label for="nav_mobile-input" class="header_navmobile">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 
+                        128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32
+                        448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
             </label>
-            <div class="nav_mobile-element">
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-house"></i>
-                    <a href="/page/main.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TRANG CHỦ</a>
+            <input type="checkbox" hidden class="nav_input" id="nav_mobile-input">
+            <label for="nav_mobile-input" class="nav_overlay"></label>
+            <nav class="nav_mobile deep_blue">
+                <label for="nav_mobile-input" class="nav__mobile-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+                <div class="nav_mobile-element">
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="/page/main.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TRANG CHỦ</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-book"></i>
+                        <a href="/page/product.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">SẢN PHẨM</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-passport"></i>
+                        <a href="/page/bbst.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">CÔNG NGHỆ BBST</a>
+                    </div>
+                    <div class="mobile_element-list">
+                        <i class="fa-solid fa-person"></i>
+                        <a href="/page/author.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TÁC GIẢ</a>
+                    </div>
                 </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-book"></i>
-                    <a href="/page/product.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">SẢN PHẨM</a>
-                </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-passport"></i>
-                    <a href="/page/bbst.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">CÔNG NGHỆ BBST</a>
-                </div>
-                <div class="mobile_element-list">
-                    <i class="fa-solid fa-person"></i>
-                    <a href="/page/author.html" class="header_list-mobile light_purple_text Lexend_bold header_fontsize-mobile link_decorate">TÁC GIẢ</a>
-                </div>
+                <hr style="position:absolute; top: 85%; width: 100%;"/>
+                <div class="nav_mobile_footer Lexend_bold light_purple_text ">ESPEEDING EDUCATION</div>
+            </nav>
             </div>
-            <hr style="position:absolute; top: 85%; width: 100%;"/>
-            <div class="nav_mobile_footer Lexend_bold light_purple_text ">ESPEEDING EDUCATION</div>
-        </nav>
+       </div>
     </div>
     <!-- content area -->
     <div class="container">
@@ -79,12 +83,12 @@
                     <img class="content_left_circle" src="/images/circle_author.png" alt="">
                     <img class="content_left_img" src="/images/thay09.png" alt="">
                 </div>
-                <div class="content_right Lexend_light wow fadeIn">
+                <div class="content_right Lexend_light wow fadeInDown"data-wow-duration="1.1s">
                     <h2>Cơ sở khoa học</h2>
                     <div class="content_about_author">
-                        <p>Tiến sĩ Nguyễn Trọng Giao là “cha đẻ” của phương pháp học tiếng Anh siêu tốc BBST. Với tầm nhìn sáng tạo và những nghiên cứu chuyên sâu, ông đã tạo ra một phương pháp học tập hoàn toàn mới.
+                        <p class="wow fadeInDown" data-wow-duration="1.2s">Tiến sĩ Nguyễn Trọng Giao là “cha đẻ” của phương pháp học tiếng Anh siêu tốc BBST. Với tầm nhìn sáng tạo và những nghiên cứu chuyên sâu, ông đã tạo ra một phương pháp học tập hoàn toàn mới.
                         </p>
-                        <p>Tiến sĩ Nguyễn Trọng Giao là “cha đẻ” của phương pháp học tiếng Anh siêu tốc BBST. Với tầm nhìn sáng tạo và những nghiên cứu chuyên sâu, ông đã tạo ra một phương pháp học tập hoàn toàn mới.</p>
+                        <p class="wow fadeInDown" data-wow-duration="1.4s">Tiến sĩ Nguyễn Trọng Giao là “cha đẻ” của phương pháp học tiếng Anh siêu tốc BBST. Với tầm nhìn sáng tạo và những nghiên cứu chuyên sâu, ông đã tạo ra một phương pháp học tập hoàn toàn mới.</p>
                     </div>
                 </div>
             </div>
@@ -92,25 +96,25 @@
                 
                 <div class="certificate_content">
                     <div class="certificate_content_left Lexend_light wow fadeIn">
-                        <div class="container_certificate_name Lexend_bold wow bounceInLeft " data-wow-duration="1.5s">
+                        <div class="container_certificate_name Lexend_bold wow fadeInDown " data-wow-duration="1.5s">
                             <h1>Thành tích đạt được của tác giả</h1>
                             <div class="author_line"></div>
                         </div>
                         <ul>
-                            <li>TS. Nguyễn Trọng Giao vinh dự nhận bằng khen của Bộ Khoa học và Công nghệ</li>
-                            <li>Nói về phương pháp BBST - đây là một trong những phương pháp học tập hàng đầu nhờ ứng dụng khoa học công nghệ hiện đại.</li>
-                            <li>Đã vinh dự được Văn phòng Chính phủ giới thiệu bản tóm tắt số 1347/VPCP-KGVX về sản phẩm tới Bộ Giáo dục và Đào tạo phối hợp với Uỷ ban Quốc gia về ứng dụng công nghệ thông tin nghiên cứu và khuyến khích sử dụng công nghệ BBST trên cộng đồng.</li>
+                            <li class="wow fadeInDown" data-wow-duration="1.7s" >TS. Nguyễn Trọng Giao vinh dự nhận bằng khen của Bộ Khoa học và Công nghệ</li>
+                            <li class="wow fadeInDown" data-wow-duration="1.8s" >Nói về phương pháp BBST - đây là một trong những phương pháp học tập hàng đầu nhờ ứng dụng khoa học công nghệ hiện đại.</li>
+                            <li class="wow fadeInDown" data-wow-duration="1.9s" >Đã vinh dự được Văn phòng Chính phủ giới thiệu bản tóm tắt số 1347/VPCP-KGVX về sản phẩm tới Bộ Giáo dục và Đào tạo phối hợp với Uỷ ban Quốc gia về ứng dụng công nghệ thông tin nghiên cứu và khuyến khích sử dụng công nghệ BBST trên cộng đồng.</li>
                             
                         </ul>
                     </div>
                     <div class="certificate_content_right">
                         <div class="certificate_content_right_up">
-                            <img src="/images/thay10.png" alt="">
-                            <img src="/images/thay11.png" alt="">
+                            <img class="wow bounceInLeft" data-wow-duration="2s" src="/images/thay10.png" alt="">
+                            <img class="wow bounceInRight" data-wow-duration="2.1s" src="/images/thay11.png" alt="">
                         </div>
                         <div class="certificate_content_right_down">
-                            <img src="/images/thay12.png" alt="">
-                            <img src="/images/thay13.png" alt="">
+                            <img class="wow bounceInLeft" data-wow-duration="2.2s" src="/images/thay12.png" alt="">
+                            <img class="wow bounceInRight"data-wow-duration="2.3s" src="/images/thay13.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -123,13 +127,13 @@
         </div>
         <div class="content_footer">
             <div class="content_footer_bbst">
-                <div class="bbst_name Lexend_bold wow fadeInDown" data-wow-duration="1s">
+                <div class="bbst_name Lexend_bold wow fadeInDown" data-wow-duration="1.5s">
                     <h1>Người sáng lập BBST</h1>
                     <div class="author_line"></div>
                 </div>
                 <div class="bbst_footer">
 
-                    <div class="bbst_name_content wow fadeInDown Lexend_light">
+                    <div class="bbst_name_content wow fadeInDown Lexend_light"data-wow-duration="1.6s">
                         <p>
                             Được Tiến sĩ Nguyễn Trọng Giao nghiên cứu được xem là một phương pháp tối ưu cho việc học tiếng Anh hiện nay tại Việt Nam. Phương pháp từng vinh dự được nhận công văn giới thiệu của Văn phòng Chính phủ.
                         </p>
@@ -188,6 +192,6 @@
     <script src="/jvs/wow.min.js"></script>
               <script>
               new WOW().init();
-              </script>
+    </script>
 </body>
 </html>

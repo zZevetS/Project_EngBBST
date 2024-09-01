@@ -105,6 +105,9 @@ body{
     color: #65A0E5;
     cursor: pointer;
 }
+.mobile_header_title{
+    display: none;
+}
 /* Footer */
 .container_footer{
     width: 100%;
