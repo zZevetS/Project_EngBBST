@@ -1,7 +1,7 @@
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1025px) {
     .frame {
-        width: 100%;
+        width: 97%;
     }
 
     .frame h2{
@@ -37,7 +37,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 60%; /* Đảm bảo mỗi cột chiếm khoảng 1/3 không gian */
+        width: 60%;
     }
     .icon img {
         width: 7em;
@@ -68,7 +68,7 @@
     
     .frame_study {
         padding: 0.11em;
-        width: 55.5em;
+        width: 99%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
@@ -77,8 +77,11 @@
         height: 70em;
     }
 
+    .study {
+        margin-left: 1.5em;
+    }
     .text_study {
-        font-size: 3em;
+        font-size: 3em
     }
     
     .study_line {
@@ -87,11 +90,11 @@
     }
 
     .step-1 {
-        width: 350px; 
-        height: 450px; 
+        width: 30%;
+        margin: 0 10px;
         position: relative;
-        margin-left: -40em;
-        margin-top: 10em;
+        margin-left: -35em;
+        margin-top: -12em;
         font-size: small;
     }
     
@@ -122,23 +125,6 @@
         left: 110px; 
         top: 70px; 
         display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    .location_1 {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
-        background-color: currentColor;
-        -webkit-mask-image: var(--svg);
-        mask-image: var(--svg);
-        -webkit-mask-repeat: no-repeat;
-        mask-repeat: no-repeat;
-        -webkit-mask-size: 100% 100%;
-        mask-size: 100% 100%;
     }
     
     .location_1 {
@@ -146,7 +132,6 @@
         height: 242px;  
         left: 0px; 
         top: 0px; 
-        position: absolute; 
     }
     
     .number_1 {
@@ -154,22 +139,17 @@
         height: 68px;  
         left: 53px; 
         top: 93px; 
-        position: absolute; 
-        text-align: center; 
-        color: black; 
         font-size: 23px; 
         font-family: Lexend; 
         font-weight: 700; 
-        letter-spacing: 5.40px; 
-        word-wrap: break-word;
     }
     
     .step-2 {
-        width: 100px; 
-        height: 480px; 
+        width: 30%;
+        margin: 0 -60em;
         position: relative;
-        margin-top: -32em;
-        margin-left: -15em;
+        margin-top: -20em;
+        margin-left: -55em;
     }
     
     .group_2 {
@@ -177,24 +157,6 @@
         height: 120px; 
         left: 120px; 
         margin-left: -40px; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    .location_2 {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
-        background-color: currentColor;
-        -webkit-mask-image: var(--svg);
-        mask-image: var(--svg);
-        -webkit-mask-repeat: no-repeat;
-        mask-repeat: no-repeat;
-        -webkit-mask-size: 100% 100%;
-        mask-size: 100% 100%;
     }
     
     .location_2 {
@@ -210,14 +172,9 @@
         height: 68px; 
         left: 53px; 
         top: 94px; 
-        position: absolute; 
-        text-align: center; 
-        color: black; 
         font-size: 23px; 
         font-family: Lexend; 
         font-weight: 700; 
-        letter-spacing: 5.40px; 
-        word-wrap: break-word;
     }
     
     .title_2 {
@@ -227,10 +184,7 @@
         top: 200px; 
         position: absolute; 
         text-align: center; 
-        color: black; 
         font-weight: 700; 
-        letter-spacing: 4.56px; 
-        word-wrap: break-word;
         font-size: x-large;
     }
 
@@ -241,44 +195,21 @@
         top: 250px; 
         position: absolute; 
         text-align: center; 
-        color: black;
-        letter-spacing: 3.60px; 
-        word-wrap: break-word;
         font-size: large;
         text-align: center;
     }
 
     .step-3 {
-        width: 200px; 
-        height: 423px; 
+        width: 30%;
+        margin: 0 -180px;
         position: relative;
-        margin-left: 34em;
-        margin-top: -31em;
+        margin-left: 10em;
+        margin-top: -21em;
     }
     
-    .group_3 {
-        width: 50px; 
-        height: 238px; 
+    .group_3 { 
         left: 0.8em; 
         top: 10.2em; 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    
-    .location_3 {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 21 21'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' transform='translate(4 2)'%3E%3Cpath d='m6.5 16.54l.631-.711Q8.205 14.6 9.064 13.49l.473-.624Q12.5 8.875 12.5 6.533C12.5 3.201 9.814.5 6.5.5s-6 2.701-6 6.033q0 2.342 2.963 6.334l.473.624a55 55 0 0 0 2.564 3.05'/%3E%3Ccircle cx='6.5' cy='6.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E");
-        background-color: currentColor;
-        -webkit-mask-image: var(--svg);
-        mask-image: var(--svg);
-        -webkit-mask-repeat: no-repeat;
-        mask-repeat: no-repeat;
-        -webkit-mask-size: 100% 100%;
-        mask-size: 100% 100%;
     }
     
     .location_3 {
@@ -295,12 +226,9 @@
         top: 94px; 
         position: absolute; 
         text-align: center; 
-        color: black; 
         font-size: 23px; 
         font-family: Lexend; 
         font-weight: 700; 
-        letter-spacing: 5.40px; 
-        word-wrap: break-word;
     }
     
     .title_3 {
@@ -310,11 +238,8 @@
         top: 360px; 
         position: absolute; 
         text-align: center; 
-        color: black; 
         font-size: x-large;  
         font-weight: 700; 
-        letter-spacing: 4.56px; 
-        word-wrap: break-word;
     }
     
     .writting_3 {
@@ -325,10 +250,7 @@
         top: 450px; 
         position: absolute; 
         text-align: center; 
-        color: black; 
         font-size: large; 
-        letter-spacing: 3.60px; 
-        word-wrap: break-word;
     }
 }
 
@@ -360,6 +282,7 @@
     .container {
         padding: 20px 18px;
     }
+
     .content {
         font-size: 2.5vw;
     }
@@ -377,73 +300,113 @@
     }
 
     .frame_study {
-        width: 99%;
-    }
-    .text_study {
-        font-size: 2em;
-        margin-top: -5em;
+        width: 91.5%;
+        height: auto;
+        padding: 1em;
     }
 
-    .study_line {
-        width: 100px;
-        height: 2px;
+    .study {
         margin-left: 0;
-        margin-top: -1em;
-        margin-bottom: 1em;
-    }
-
-    .step-1, .step-2, .step-3 {
-        width: 90%;
-        height: auto;
-        margin: 1.5em 0;
-        position: relative;
-    }
-
-    .writting_1, .writting_2, .writting_3 {
-        width: 100%;
-        height: auto;
-        top: auto;
-        left: auto;
-        position: static;
-        font-size: 3.5vw;
-        max-width: 100%;
-    }
-
-    .title_1, .title_2, .title_3 {
-        width: 100%;
-        height: auto;
-        top: auto;
-        left: auto;
-        position: static;
-        font-size: 4.5vw;
-        font-weight: 700;
-    }
-
-    .group_1, .group_2, .group_3 {
-        width: 80%;
-        height: auto;
-        margin: 0 auto;
-        position: static;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
 
+    .text_study {
+        font-size: 2em;
+        margin-top: 0.5em;
+        margin-left: 0;
+    }
+
+    .study_line {
+        width: 80%; /* Giảm chiều rộng của đường line */
+        height: 2px;
+        margin: 1em 0; /* Điều chỉnh khoảng cách trên và dưới */
+    }
+
+    .step {
+        flex-direction: column;
+        width: 100%;
+        padding: 1em;
+        gap: 10px;
+        margin: 2em 0;
+        position: relative;
+    }
+
+    .step-1, .step-2 {
+        margin: 0;
+        width: 100%;
+        top: 5em;
+    }
+
+    .step-3 {
+        margin: 0;
+        width: 100%;
+        top: 15em;
+    }
+
+    .group_1, .group_2 {
+        width: 80%;
+        margin: 0 auto;
+        top: -21em;
+        left: 0;
+        position: relative;
+    }
+
+    .group_3 {
+        width: 80%;
+        margin: 0 auto;
+        top: -21em;
+        left: 0;
+        position: relative;
+    }
+
     .location_1, .location_2, .location_3 {
-        width: 60px;
-        height: 70px;
-        top: auto;
-        left: auto;
-        position: static;
+        width: 40%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        position: relative;
     }
 
     .number_1, .number_2, .number_3 {
-        width: auto;
-        height: auto;
-        top: auto;
-        margin-left: -2.3em;
-        position: static;
-        font-size: 3.8vw;
-        font-weight: 700;
+        position: absolute;
+        font-size: 6.5vw;
+        left: 51%;
+        transform: translateX(-50%);
+        top: 38.3%;
+        display: block;
+    }
+
+    .title_1, .title_2 {
+        font-size: 7vw;
+        top: 100px;
+        left: 0;
+        width: 100%;
+    }
+
+    .title_3 {
+        font-size: 7vw;
+        top: -4em;
+        left: 0;
+        width: 100%;
+    }
+
+    .writting_1, .writting_2 {
+        font-size: 4vw;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 125px;
+        position: relative;
+    }
+
+    .writting_3 {
+        font-size: 4vw;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -17.7em;
+        position: relative;
     }
 }
