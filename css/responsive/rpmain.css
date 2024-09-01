@@ -6,85 +6,95 @@
         display: flex;
         flex-direction: column;
     }
-
+    .element1_product {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2em;
+    }
     .element1_title {
-        background-color: #AEB4B2;
-        text-align: center;
-        border-top-right-radius: 40px;
-        border-bottom-right-radius: 40px;
-        /* width: 15em; */
-        width: 95%;
-        height: 1.8em;
-        padding-top: 20px;
-        font-size: 1.5em;
+      background-color: #AEB4B2;
+      text-align: center;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      width: 74%;
+      height: 1.8em;
+      padding-top: 7px;
+      font-size: 1em;
+    }
+    .element1_card{
+      padding: 2em 1em 0 1em;
+      width: 85%;
+      height: max-content;
+      box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+      background-color: white;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      border-radius: 2em;
+    }
+    .element1_card:hover{
+      padding: 2em 1em 0 1em;
+      width: 85%;
+      height: max-content;
+      box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+      background-color: white;
+      color: black;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      transform: translateY(-15px);
+      display: flex;
+      justify-content: space-evenly;
     }
     .element1_para {
-      text-align: center;
-      width: 99%;
-      font-size: 0.8em;
+      width: 100%;
+      font-size: 0.98em;
     }
-    .element1_product {
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        gap: 10px;
-        padding-bottom: 20px;
-        margin-top: 3em;
-    }
-
-    .element1_card {
-        flex: 0 0 auto;
-        scroll-snap-align: start;
-        width: 16em;
-        height: max-content;
-        box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.3); 
-        background-color: rgb(255, 255, 255);
-        margin-left: 0.5em;
-        position: relative;
-    }
-
     .element1_item-img {
-        width: 16em;
-        height: 21em;
+      width: 100%;
+      height: 30em;
     }
-
     .element1_item-title {
-        text-align: center;
-        font-size: 0.7em;
+      text-align: center;
+      font-size: 1em;
     }
-
     .element1_moreinfobtn {
-        border-radius: 10px;
-        font-size: 1.3em;
-        width: 100%;
-        height: 3em;
-        color: white;
-        display: none;
+      margin-bottom: 0.5em;
+      border-radius: 10px;
+      font-size: 1.3em;
+      width: 100%;
+      height: 2.8em;
+      color: black;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
     }
-
-    .element1_card:hover .element1_moreinfobtn {
-        display: block;
-        width: 10em;
-        background-color: #11324D;
-        cursor: pointer;
-        position: relative;
-        bottom: 11em;
-        left: 26%;
-        transform: translateX(-50%);
+    
+    .element1_moreinfobtn a {
+      width: 68%;
+      outline: none;
+      cursor: pointer;
+      border: none;
+      padding: 1rem 3rem;
+      margin-bottom: 1em;
+      font-family: 'Lexend', sans-serif;
+      font-size: 15px;
+      position: relative;
+      display: inline-block;
+      letter-spacing: 0.05rem;
+      font-weight: 700;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #4D9FE3;
+      color: #ffffff;
+      text-decoration: none;
+      text-align: center;
+    } 
+    .element1_card_item1 {
+      margin-left: 0em;
+      margin-top: 0px;
     }
-
-    .element1_card:hover {
-        height: 25em;
-        width: 16em;
-        transform: translateY(-2%);
+    .element1_card_item2 {
+      margin-right: 0px;
     }
-
-    .element1_moreinfotexts {
-        color: white;
-        font-size: 0.8em;
-    }
-
     /* ELEMENT 2 */
     .element2{
       margin-top: 1em;
@@ -100,6 +110,7 @@
     }
     .element2_box{
       margin-top: 1.5em;
+      margin-right: 0px;
     }
     .element2_title{
       font-size: 1.8em;
@@ -126,19 +137,27 @@
       width: 100%;
       height: 100%;
     }
-    .element2_moreinfobtn{
+    .element2_moreinfobtn {
+      margin-bottom: 0.5em;
+      border-radius: 10px;
+      font-size: 1.3em;
       width: 100%;
-      height: auto;
-      text-align: center;
+      height: 2.8em;
+      color: black;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
     }
+    
     .element2_moreinfobtn a {
-      width: 10em;
+      width: 52%;
       outline: none;
       cursor: pointer;
       border: none;
-      padding: 1rem 2rem;
-      margin: 0 auto;
-      font-size: 0.7em;
+      padding: 0.5rem 1.3rem;
+      margin-bottom: 1em;
+      font-family: 'Lexend', sans-serif;
+      font-size: 10px;
       position: relative;
       display: inline-block;
       letter-spacing: 0.05rem;
@@ -148,12 +167,13 @@
       background: #4D9FE3;
       color: #ffffff;
       text-decoration: none;
-    }  
+      text-align: center;
+    }
+     
     .element2_moreinfobtn a span{
       position: relative;
       z-index: 10;
-      transition: color 0.4s;
-      
+      transition: color 0.4s;  
     }
     
     .element2_moreinfobtn a:hover span {
@@ -203,7 +223,7 @@
       margin-bottom: 1em;
     }
     .element3_content-child{
-      width: 32%;
+      width: 27%;
     }
     .element3_para {
       text-align: center;
@@ -217,18 +237,24 @@
       margin-left: 0;
     }
     .element3_moreinfobtn{
+      border-radius: 10px;
+      font-size: 1.3em;
       width: 100%;
-      height: auto;
-      text-align: center;
+      height: 2.8em;
+      color: black;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
     }
     .element3_moreinfobtn a {
-      width: 12.6em;
+      width: 50%;
       outline: none;
       cursor: pointer;
       border: none;
-      padding: 1rem 1rem;
-      margin: 0 auto;
-      font-size: 0.7em;
+      padding: 0.5rem 1.3rem;
+      margin-bottom: 1em;
+      font-family: 'Lexend', sans-serif;
+      font-size: 10px;
       position: relative;
       display: inline-block;
       letter-spacing: 0.05rem;
@@ -238,6 +264,7 @@
       background: #4D9FE3;
       color: #ffffff;
       text-decoration: none;
+      text-align: center;
     }
     
     .element3_moreinfobtn a span{
@@ -310,7 +337,7 @@
     scroll-snap-type: x mandatory;
     gap: 10px;
     padding-bottom: 20px;
-    margin-top: 3em;  
+    margin-top: 2em;
   }
 
   .element1_card {
@@ -518,9 +545,8 @@
     overflow: hidden;
     background: #4D9FE3 ; 
     color: #ffffff;
-    text-decoration: none; 
+    text-decoration: none;
   }
-
   .element3_moreinfobtn a span{
     position: relative;
     z-index: 10;
