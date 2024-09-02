@@ -1,6 +1,6 @@
 .frame {
     padding: 12.2px;
-    width: 98.2%;
+    width: 98.1%;
     background-color: #B7D3E9;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -25,8 +25,8 @@
 }
 .frame p {
     font-size: 2em;
+    width: 30em;
     display: flex;
-    width: 40em;
     text-align: center;
 }
 
@@ -44,9 +44,9 @@
 
 .icon {
     display: flex;
+    width: 65em;
     justify-content: space-between;
     align-items: flex-start; /* Đảm bảo các div con được căn thẳng hàng trên cùng */
-    width: 75em;
     padding: 40px;
 }
 
@@ -168,7 +168,7 @@
 .frame_study {
     background-color: #B7D3E9;
     padding: 0.19em;
-    width: 99.5%;
+    width: 99.58%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@
 }
 
 .study {
-    margin-left: -7em;
+    margin-left: 1em;
 }
 .text_study {
     font-size: 4em;
@@ -205,47 +205,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    gap: 20px; /* Điều chỉnh khoảng cách giữa các phần tử */   
+    gap: 20px; /* Điều chỉnh khoảng cách giữa các phần tử */ 
+    margin-left: 1.9em;  
 }
 
 .step-1 {
     width: 30%;
     margin: 0 10px; 
     position: relative;
-    margin-left: -60em;
+    margin-left: -55em;
     margin-top: -3em;
     font-size: small;
-}
-
-.writting_1 {
-    width: 15em; 
-    height: 120px; 
-    left: 50px; 
-    top: 330px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 30px; 
-    letter-spacing: 3.60px;
-    word-wrap: break-word;
-    font-size: x-large;
-    max-width: 40em;
-}
-
-.title_1 {
-    width: 301px; 
-    height: 61px; 
-    left: 74px; 
-    top: 269px; 
-    position: absolute; 
-    text-align: center; 
-    color: black; 
-    font-size: 38px; 
-    font-family: Lexend; 
-    font-weight: 700; 
-    letter-spacing: 4.56px; 
-    word-wrap: break-word;
-    font-size: xx-large;
 }
 
 .group_1 {
@@ -296,25 +266,41 @@
     word-wrap: break-word;
 }
 
+.title_1 {
+    width: 301px; 
+    height: 61px; 
+    left: 74px; 
+    top: 269px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-weight: 700; 
+    letter-spacing: 4.56px; 
+    word-wrap: break-word;
+    font-size: xx-large;
+}
+
+.writting_1 {
+    width: 12em; 
+    height: 120px; 
+    left: 80px; 
+    top: 330px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 30px; 
+    letter-spacing: 3.60px;
+    word-wrap: break-word;
+    font-size: x-large;
+    max-width: 40em;
+}
+
 .step-2 {
     width: 30%;
     margin: 0 -60em;
     position: relative;
     margin-top: -16em;
-    margin-left: -4em;
-}
-
-.writting_2 {
-    width: 380px; 
-    height: 222px; 
-    left: 0px; 
-    top: 363px; 
-    position: absolute; 
-    text-align: center; 
-    color: black;
-    letter-spacing: 3.60px; 
-    word-wrap: break-word;
-    font-size: x-large;
+    margin-left: -6em;
 }
 
 .group_2 {
@@ -380,9 +366,22 @@
     font-size: xx-large;
 }
 
+.writting_2 {
+    width: 380px; 
+    height: 222px; 
+    left: 0px; 
+    top: 363px; 
+    position: absolute; 
+    text-align: center; 
+    color: black;
+    letter-spacing: 3.60px; 
+    word-wrap: break-word;
+    font-size: x-large;
+}
+
 .step-3 {
     width: 30%;
-    margin: 0 -480px; 
+    margin: 0 -400px; 
     position: relative;
     margin-left: 71em;
     margin-top: -14em;
@@ -391,7 +390,7 @@
 .group_3 {
     width: 50px; 
     height: 238px; 
-    left: -10em; 
+    left: -13em; 
     top: 5em; 
     display: flex;
     justify-content: center;
@@ -436,9 +435,9 @@
 }
 
 .title_3 {
-    width: 400px; 
+    width: 300px; 
     height: 61px; 
-    left: -7.4em; 
+    left: -7.7em; 
     top: 330px; 
     position: absolute; 
     text-align: center; 
@@ -452,9 +451,9 @@
 
 .writting_3 {
     max-width: 40em;
-    width: 18em; 
+    width: 16em; 
     height: 50px; 
-    left: -11em; 
+    left: -11.8em; 
     top: 450px; 
     position: absolute; 
     text-align: center; 

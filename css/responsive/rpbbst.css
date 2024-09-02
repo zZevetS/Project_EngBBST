@@ -437,3 +437,126 @@
     }
 }
 
+/* CSS dành riêng cho moblie màn hình ngang (Ip SE, 6/7/8 plus, Samsung S8+,*/
+@media (max-width: 767px) and (orientation: landscape) {
+    .frame_study {
+        width: 95%;
+        height: auto;
+        padding: 1em;
+    }
+    .step {
+        flex-direction: column;
+        width: 100%;
+        padding: 1em;
+        gap: 10px;
+        margin: 2em 0;
+        position: relative;
+    }
+
+    .step-1 {
+        margin: 0;
+        width: 100%;
+        top: 5em;
+    }
+
+    .step-2 {
+        margin: 0;
+        width: 100%;
+        top: 4em;
+    }
+    .step-3 {
+        margin: 0;
+        width: 100%;
+        top: 20em;
+    }
+
+    .group_1, .group_2 {
+        width: 80%;
+        margin: 0 auto;
+        top: -21em;
+        left: 0;
+        position: relative;
+    }
+
+    .group_3 {
+        width: 80%;
+        margin: 0 auto;
+        top: -21em;
+        left: 0;
+        position: relative;
+    }
+
+    .location_1, .location_2, .location_3 {
+        width: 30%;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+
+    .number_1 {
+        position: absolute;
+        font-size: 4vw;
+        left: 50.5%;
+        transform: translateX(-50%);
+        top: 36%;
+        display: block;
+    }
+
+    .number_2, .number_3 {
+        position: absolute;
+        font-size: 4vw;
+        left: 50.4%;
+        transform: translateX(-50%);
+        top: 36%;
+        display: block;
+    }
+
+    .title_1 {
+        font-size: 4vw;
+        top: 4em;
+        left: 1em;
+        width: 90%;
+    }
+
+    .title_2 {
+        font-size: 4vw;
+        top: 5em;
+        left: 1em;
+        width: 90%;
+    }
+
+    .title_3 {
+        font-size: 4vw;
+        top: -4em;
+        left: 5em;
+        width: 60%;
+    }
+
+    .writting_1 {
+        font-size: 3.5vw;
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6em;
+        position: relative;
+    }
+
+    .writting_2 {
+        font-size: 3.5vw;
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 8em;
+        position: relative;
+    }
+
+    .writting_3 {
+        font-size: 3.5vw;
+        width: 75%;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -12em;
+        position: relative;
+    }
+}
