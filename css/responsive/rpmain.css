@@ -325,11 +325,10 @@
 
   .element1_para {
     text-align: center;
-    width: 74%;
-    font-size: 1em;
+    width: 100%;
+    font-size: 0.87em;
     margin: auto;
   }
-
   .element1_product {
     display: flex;
     flex-direction: row;
@@ -341,56 +340,115 @@
   }
 
   .element1_card {
+    padding: 1em 1em 0 1em;
     flex: 0 0 auto;
     scroll-snap-align: start;
-    width: 12em;
+    width: 90%;
     height: max-content;
-    box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.3);
     background-color: rgb(255, 255, 255);
-    margin-left: 0.5em;
     position: relative;
   }
-
+  .element1_card_item1 {
+    margin-left: 0em;
+    margin-top: 7em;
+  } 
+  .element1_card_item2 {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
   .element1_item-img {
-    width: 12em;
-    height: 14em;
+    width: 15em;
+    height: 18em;
   }
 
   .element1_item-title {
     text-align: center;
     font-size: 10px;
   }
+  .element1_card:hover{
+    padding: 1em 1em 0 1em;
+    width: 90%;
+    height: max-content;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: translateY(-15px);
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-evenly;
+  }
 
   .element1_moreinfobtn {
+    margin-bottom: 0.5em;
     border-radius: 10px;
     font-size: 1.3em;
-    width: 100%;
-    height: 3em;
-    color: white;
-    display: none;
-  }
-
-  .element1_card:hover .element1_moreinfobtn {
-    display: block;
-    width: 7em;
-    background-color: #11324D;
+    width: 100%; 
+    height: 2.8em;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
+  .element1_moreinfobtn a {
+    width: 15em;
+    outline: none;
     cursor: pointer;
+    border: none;
+    padding: 0.5rem 3rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 15px;
     position: relative;
-    bottom: 9em;
-    left: 18%;
-    transform: translateX(-50%);
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  } 
+  .element1_moreinfobtn a span{
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    
   }
-
-  .element1_card:hover {
-    height: 18em;
-    width: 12em;
-    transform: translateY(-2%);
-  }
-
-  .element1_moreinfotexts {
+  
+  .element1_moreinfobtn a:hover span {
     color: white;
-    font-size: 0.8em;
   }
+  
+  .element1_moreinfobtn a::before,
+  .element1_moreinfobtn a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .element1_moreinfobtn a::before {
+    content: "";
+    color:#000;
+    background: #0D4C7F;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+  }
+  
+  .element1_moreinfobtn a:hover::before {
+    transform: translate3d(100%, 0, 0);
+  }
+
+
+
+
 
   /* ELEMENT 2 */
   .element2{
@@ -407,6 +465,7 @@
   }
   .element2_box{
     margin-top: 1.5em;
+    margin-right: 0em;
   }
   .element2_title{
     font-size: 1.8em;
@@ -433,28 +492,36 @@
     width: 100%;
     height: 100%;
   }
-  .element2_moreinfobtn{
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
+  .element2_moreinfobtn {
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 100%; 
+    height: 2.8em;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
   .element2_moreinfobtn a {
-    width: 10em;
+    width: 15em;
     outline: none;
     cursor: pointer;
     border: none;
-    padding: 1rem 3rem;
-    margin: 0 auto;
-    font-size: 0.8em;
+    padding: 0.5rem 3rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 15px;
     position: relative;
     display: inline-block;
     letter-spacing: 0.05rem;
     font-weight: 700;
     border-radius: 20px;
     overflow: hidden;
-    background: #4D9FE3 ; 
+    background: #4D9FE3;
     color: #ffffff;
-    text-decoration: none; 
+    text-decoration: none;
+    text-align: center;
   }
 
   .element2_moreinfobtn a span{
@@ -524,28 +591,34 @@
     margin-top: 0.5em;
     margin-left: 0;
   }
-  .element3_moreinfobtn{
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
+  .element3_moreinfobtn {
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 100%; 
+    height: 2.8em;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
   .element3_moreinfobtn a {
-    width: 10em;
+    width: 15em;
     outline: none;
     cursor: pointer;
     border: none;
-    padding: 1rem 3rem;
-    margin: 0 auto;
-    font-size: 0.8em;
+    padding: 0.5rem 3rem;
+    margin-bottom: 1em;
+    font-size: 15px;
     position: relative;
     display: inline-block;
     letter-spacing: 0.05rem;
     font-weight: 700;
     border-radius: 20px;
     overflow: hidden;
-    background: #4D9FE3 ; 
+    background: #4D9FE3;
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
   }
   .element3_moreinfobtn a span{
     position: relative;
@@ -586,7 +659,7 @@
   .element1_para {
     text-align: center;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.38em;
   }
   .element1_title {
     background-color: #AEB4B2;
@@ -602,31 +675,113 @@
     width: 15em;
     height: 20em;
   }
+  .element1_card {
+    padding: 1em 1em 0 1em;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 90%;
+    height: max-content;
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  .element1_card_item1 {
+    margin-left: 0em;
+    margin-top: 7em;
+  } 
+  .element1_card_item2 {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .element1_item-img {
+    width: 20em;
+    height: 25em;
+  }
+
   .element1_item-title {
     text-align: center;
-    font-size: 0.7em;
+    font-size: 16px;
   }
-  .element1_card:hover .element1_moreinfobtn {
-    width: 8em;
-    height: 2em;
-    margin-left: 2em;
-    display: block;
-    background-color: #11324D;
-    cursor: pointer;
-    position: relative;
-    bottom: 12em;
-  }
-  .element1_moreinfotexts {
-    color: white;
-    font-size: 1em;
-  }
-  .element1_card:hover {
+  .element1_card:hover{
     padding: 1em 1em 0 1em;
-    width: max-content;
-    height: 24em;
-    transform: translateY(-2%);
-    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: max-content;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    transform: translateY(-15px);
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-evenly;
   }
+
+  .element1_moreinfobtn {
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 100%; 
+    height: 2.8em;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
+  .element1_moreinfobtn a {
+    width: 21em;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.5em 3rem;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  } 
+  .element1_moreinfobtn a span{
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+    
+  }
+  
+  .element1_moreinfobtn a:hover span {
+    color: white;
+  }
+  
+  .element1_moreinfobtn a::before,
+  .element1_moreinfobtn a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .element1_moreinfobtn a::before {
+    content: "";
+    color:#000;
+    background: #0D4C7F;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+  }
+  
+  .element1_moreinfobtn a:hover::before {
+    transform: translate3d(100%, 0, 0);
+  }
+  /* ELEMENT 2 */
   .element2_title {
     font-size: 2em;
   }
@@ -648,14 +803,14 @@
     margin-right: 0.2em;
   }
   .element2_moreinfobtn a {
-    width: 10em;
+    width: 13em;
     outline: none;
     cursor: pointer;
     border: none;
-    padding: 1rem 2rem;
-    margin-top: 1em;
+    padding: 0.5rem 2rem;
+    margin-top: 2em;
     font-family: 'Lexend', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
     display: inline-block;
     letter-spacing: 0.05rem;
@@ -666,12 +821,47 @@
     color: #ffffff;
     text-decoration: none;
   }
+  .element2_img {
+    width: 43em;
+    height: 26em;
+  }
   .element3_title {
     text-align: center;
     font-size: 2em;
     margin-top: 2em;
     margin-bottom: 1em;
   }
+  .element3_moreinfobtn {
+    margin-bottom: 0em;
+    border-radius: 10px;
+    font-size: 1.3em;
+    width: 100%; 
+    height: 2.8em;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  } 
+  .element3_moreinfobtn a {
+    width: 21em;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.5em 3rem;
+    margin-top: 0.8em;
+    margin-bottom: 1em;
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  } 
 }
 
 
