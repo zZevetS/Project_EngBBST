@@ -92,7 +92,7 @@
 }
 
 .right {
-    left: 46%;
+    left: 43%;
 }
 
 .content {
@@ -270,7 +270,7 @@
     width: 301px; 
     height: 61px; 
     left: 74px; 
-    top: 269px; 
+    top: 255px; 
     position: absolute; 
     text-align: center; 
     color: black; 
@@ -284,7 +284,7 @@
     width: 12em; 
     height: 120px; 
     left: 80px; 
-    top: 330px; 
+    top: 300px; 
     position: absolute; 
     text-align: center; 
     color: black; 
@@ -355,7 +355,7 @@
     width: 371px; 
     height: 61px; 
     left: 1px; 
-    top: 282px; 
+    top: 265px; 
     position: absolute; 
     text-align: center; 
     color: black; 
@@ -370,7 +370,7 @@
     width: 380px; 
     height: 222px; 
     left: 0px; 
-    top: 363px; 
+    top: 320px; 
     position: absolute; 
     text-align: center; 
     color: black;
@@ -454,7 +454,7 @@
     width: 16em; 
     height: 50px; 
     left: -11.8em; 
-    top: 450px; 
+    top: 407px; 
     position: absolute; 
     text-align: center; 
     color: black; 

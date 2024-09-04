@@ -74,7 +74,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 70em;
+        height: 50em;
     }
 
     .study {
@@ -283,8 +283,12 @@
     }
 }
 
-/* CSS dành riêng cho ipad Pro */
+/* CSS dành riêng cho ipad Pro ở chế độ dọc */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    .frame {
+        width: 97.5%;
+    }
+
     .writting_1 {
         width: 10em; 
         height: 120px; 
@@ -308,12 +312,47 @@
     }
 }
 
+/* CSS dành cho ipad Air ở chế độ ngang */
+@media only screen and (max-width: 1180px) and (min-width: 820px) and (orientation: landscape) {
+    .frame {
+        width: 97.4%;
+    }
+
+    .right .date {
+        left: -160px;
+    }
+
+    .right::after {
+        left: -51px;
+    }
+
+    .right {
+        left: 44%;
+    }
+
+    .right .content {
+        margin-left: 10px;
+    }
+    
+    .frame_study {
+        padding: 0.11em;
+        width: 99.6%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70em;
+    }
+}
+
 /* Mobile */
 @media (max-width: 767px) {
     .frame {
         padding: 0px;
         width: 99.9%;
         font-size: 1.5vw;
+        height: 360px;
     } 
     
     .bbst_line {
@@ -360,12 +399,13 @@
 
     .frame_study {
         width: 91.5%;
-        height: auto;
+        height: 1260px;
         padding: 1em;
     }
 
     .study {
         margin-left: 0;
+        margin-top: 20em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -380,7 +420,7 @@
     .study_line {
         width: 80%; /* Giảm chiều rộng của đường line */
         height: 2px;
-        margin: 1em 0; /* Điều chỉnh khoảng cách trên và dưới */
+        margin: -1em 0; /* Điều chỉnh khoảng cách trên và dưới */
     }
 
     .step {
@@ -395,18 +435,18 @@
     .step-1 {
         margin: 0;
         width: 100%;
-        top: 5em;
+        top: 6em;
     }
 
     .step-2 {
         margin: 0;
         width: 100%;
-        top: -4em;
+        top: -3em;
     }
     .step-3 {
         margin: 0;
         width: 100%;
-        top: 3em;
+        top: 4em;
     }
 
     .group_1, .group_2 {
@@ -493,6 +533,13 @@
 
 /* CSS dành riêng cho moblie màn hình ngang (Ip SE, 6/7/8 plus, Samsung S8+,*/
 @media (max-width: 767px) and (orientation: landscape) {
+    .frame {
+        padding: 0px;
+        width: 99.9%;
+        font-size: 1.5vw;
+        height: 590px;
+    }
+
     .frame_study {
         width: 95%;
         height: auto;
@@ -614,3 +661,4 @@
         position: relative;
     }
 }
+
