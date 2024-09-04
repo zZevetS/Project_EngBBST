@@ -68,7 +68,7 @@
     
     .frame_study {
         padding: 0.11em;
-        width: 99%;
+        width: 99.5%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
@@ -80,6 +80,7 @@
     .study {
         margin-left: 1.5em;
     }
+
     .text_study {
         font-size: 3em
     }
@@ -87,6 +88,10 @@
     .study_line {
         margin-left: 0.2em;
         margin-top: -1em;
+    }
+
+    .step {
+        margin-left: 1em;
     }
 
     .step-1 {
@@ -101,11 +106,10 @@
     .writting_1 {
         width: 10em; 
         height: 120px; 
-        left: 80px; 
-        top: 330px; 
-        font-size: 30px; 
+        left: 95px; 
+        top: 300px; 
         word-wrap: break-word;
-        font-size: large;
+        font-size: 2vw;
         text-align: center;
         max-width: 40em;
     }
@@ -116,7 +120,7 @@
         left: 20px; 
         top: 269px;  
         font-size: 38px; 
-        font-size: x-large;
+        font-size: 2.5vw;
     }
     
     .group_1 {
@@ -149,7 +153,7 @@
         margin: 0 -60em;
         position: relative;
         margin-top: -20em;
-        margin-left: -55em;
+        margin-left: -55.7em;
     }
     
     .group_2 {
@@ -185,17 +189,17 @@
         position: absolute; 
         text-align: center; 
         font-weight: 700; 
-        font-size: x-large;
+        font-size: 2.5vw;
     }
 
     .writting_2 {
         width: 200px; 
         height: 222px; 
         left: 40px; 
-        top: 250px; 
+        top: 230px; 
         position: absolute; 
         text-align: center; 
-        font-size: large;
+        font-size: 2vw;
         text-align: center;
     }
 
@@ -208,7 +212,7 @@
     }
     
     .group_3 { 
-        left: 0.8em; 
+        left: -1em; 
         top: 10.2em; 
     }
     
@@ -232,25 +236,75 @@
     }
     
     .title_3 {
-        width: 300px; 
+        width: 250px; 
         height: 61px; 
-        left: -3.4em; 
+        left: -4em; 
         top: 360px; 
         position: absolute; 
         text-align: center; 
-        font-size: x-large;  
+        font-size: 2.5vw;  
         font-weight: 700; 
     }
     
     .writting_3 {
-        max-width: 40em;
+        max-width: 30em;
         width: 16em; 
         height: 50px; 
-        left: -5em; 
-        top: 450px; 
+        left: -5.5em; 
+        top: 420px; 
         position: absolute; 
         text-align: center; 
-        font-size: large; 
+        font-size: 2vw; 
+    }
+}
+
+/* CSS dành riêng cho ipad ở chế độ dọc */
+@media only screen and (min-width: 767px) and (max-width: 1025px) and (orientation: landscape) {
+    .writting_1 {
+        width: 10em; 
+        height: 120px; 
+        left: 78px; 
+        top: 300px; 
+        word-wrap: break-word;
+        font-size: 2vw;
+        text-align: center;
+        max-width: 40em;
+    }
+
+    .title_3 {
+        width: 250px;
+        height: 61px;
+        left: -3em;
+        top: 360px;
+        position: absolute;
+        text-align: center;
+        font-size: 2.5vw;
+        font-weight: 700;
+    }
+}
+
+/* CSS dành riêng cho ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    .writting_1 {
+        width: 10em; 
+        height: 120px; 
+        left: 78px; 
+        top: 300px; 
+        word-wrap: break-word;
+        font-size: 2vw;
+        text-align: center;
+        max-width: 40em;
+    }
+
+    .title_3 {
+        width: 250px;
+        height: 61px;
+        left: -3em;
+        top: 360px;
+        position: absolute;
+        text-align: center;
+        font-size: 2.5vw;
+        font-weight: 700;
     }
 }
 
@@ -258,7 +312,7 @@
 @media (max-width: 767px) {
     .frame {
         padding: 0px;
-        width: 99.5%;
+        width: 99.9%;
         font-size: 1.5vw;
     } 
     
