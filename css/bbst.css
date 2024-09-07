@@ -275,7 +275,6 @@
     text-align: center; 
     color: black; 
     font-weight: 700; 
-    letter-spacing: 4.56px; 
     word-wrap: break-word;
     font-size: xx-large;
 }
@@ -289,7 +288,6 @@
     text-align: center; 
     color: black; 
     font-size: 30px; 
-    letter-spacing: 3.60px;
     word-wrap: break-word;
     font-size: x-large;
     max-width: 40em;
@@ -347,7 +345,6 @@
     font-size: 45px; 
     font-family: Lexend; 
     font-weight: 700; 
-    letter-spacing: 5.40px; 
     word-wrap: break-word;
 }
 
@@ -361,7 +358,6 @@
     color: black; 
     font-family: Lexend; 
     font-weight: 700; 
-    letter-spacing: 4.56px; 
     word-wrap: break-word;
     font-size: xx-large;
 }
@@ -374,7 +370,6 @@
     position: absolute; 
     text-align: center; 
     color: black;
-    letter-spacing: 3.60px; 
     word-wrap: break-word;
     font-size: x-large;
 }
@@ -445,7 +440,6 @@
     font-size: xx-large; 
     font-family: Lexend; 
     font-weight: 700; 
-    letter-spacing: 4.56px; 
     word-wrap: break-word;
 }
 
@@ -459,7 +453,6 @@
     text-align: center; 
     color: black; 
     font-size: x-large; 
-    letter-spacing: 3.60px; 
     word-wrap: break-word;
 }
 

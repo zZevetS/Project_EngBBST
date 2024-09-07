@@ -174,7 +174,7 @@
     .number_2 {
         width: 20px; 
         height: 68px; 
-        left: 53px; 
+        left: 50px; 
         top: 94px; 
         font-size: 23px; 
         font-family: Lexend; 
@@ -488,13 +488,22 @@
         position: relative;
     }
 
-    .number_1, .number_2, .number_3 {
+    .number_1, .number_3 {
         position: absolute;
         font-size: 6.5vw;
         left: 51%;
         transform: translateX(-50%);
         top: 38.60%;
         display: block;
+    }
+
+    .number_2 {
+        position: absolute;
+        font-size: 6.5vw;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 38.60%;
+        display: block; 
     }
 
     .title_1 {
@@ -677,3 +686,23 @@
     }
 }
 
+/* iPhone XR (1792px x 828px) ở chế độ ngang */
+@media only screen and (max-height: 828px) and (orientation: landscape) {
+    .frame {
+        padding: 0;
+        width: 100%;
+        font-size: 1.4vw;
+        height: 400px; /* Điều chỉnh chiều cao nếu cần */
+    }
+    
+}
+
+/* iPhone 14 Pro Max (2796px x 1290px) ở chế độ ngang */
+@media only screen and (max-height: 1290px) and (orientation: landscape) {
+    .frame {
+        padding: 0;
+        width: 100%;
+        font-size: 1.3vw;
+        height: auto; /* Điều chỉnh chiều cao nếu cần */
+    }
+}
