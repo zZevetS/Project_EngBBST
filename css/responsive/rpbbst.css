@@ -1,7 +1,7 @@
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 1025px) {
     .frame {
-        width: 97%;
+        max-width: 100%;
     }
 
     .frame h2{
@@ -67,8 +67,8 @@
     }
     
     .frame_study {
-        padding: 0.11em;
-        width: 99.5%;
+        padding: 0px;
+        max-width: 100%;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
@@ -77,287 +77,41 @@
         height: 50em;
     }
 
-    .study {
-        margin-left: 1.5em;
+    .text_study { 
+        font-size: 6.5vw; 
     }
 
-    .text_study {
-        font-size: 3em
-    }
-    
     .study_line {
-        margin-left: 0.2em;
-        margin-top: -1em;
+        width: 170px;
+        height: 3px;
+        background-color: black;
+        margin: 0 auto;
+        margin-bottom: 40px;
     }
 
-    .step {
-        margin-left: 1em;
+    .group_1, .group_2, .group_3 {
+        margin-top: -5em;
+    }
+    .step-1, .step-2, .step-3 { 
+        width: 45%; 
     }
 
-    .step-1 {
-        width: 30%;
-        margin: 0 10px;
-        position: relative;
-        margin-left: -35em;
-        margin-top: -12em;
-        font-size: small;
-    }
-    
-    .writting_1 {
-        width: 10em; 
-        height: 120px; 
-        left: 95px; 
-        top: 300px; 
-        word-wrap: break-word;
-        font-size: 2vw;
-        text-align: center;
-        max-width: 40em;
-    }
-    
-    .title_1 {
-        width: 301px; 
-        height: 61px; 
-        left: 20px; 
-        top: 269px;  
-        font-size: 38px; 
-        font-size: 2.5vw;
-    }
-    
-    .group_1 {
-        width: 196px; 
-        height: 242px; 
-        left: 110px; 
-        top: 70px; 
-        display: flex;
-    }
-    
-    .location_1 {
-        width: 120px; 
-        height: 242px;  
-        left: 0px; 
-        top: 0px; 
-    }
-    
-    .number_1 {
+    .location_1, .location_2, .location_3 { 
         width: 20px; 
-        height: 68px;  
-        left: 53px; 
-        top: 93px; 
-        font-size: 23px; 
-        font-family: Lexend; 
-        font-weight: 700; 
-    }
-    
-    .step-2 {
-        width: 30%;
-        margin: 0 -60em;
-        position: relative;
-        margin-top: -20em;
-        margin-left: -55.7em;
-    }
-    
-    .group_2 {
-        width: 50px; 
-        height: 120px; 
-        left: 120px; 
-        margin-left: -40px; 
-    }
-    
-    .location_2 {
-        width: 120px; 
-        height: 242px; 
-        left: 0px; 
-        top: 0px; 
-        position: absolute; 
-    }
-    
-    .number_2 {
-        width: 20px; 
-        height: 68px; 
-        left: 50px; 
-        top: 94px; 
-        font-size: 23px; 
-        font-family: Lexend; 
-        font-weight: 700; 
-    }
-    
-    .title_2 {
-        width: 371px; 
-        height: 61px; 
-        left: -35px; 
-        top: 200px; 
-        position: absolute; 
-        text-align: center; 
-        font-weight: 700; 
-        font-size: 2.5vw;
+        height: 90px; 
+        font-size: 8em;
     }
 
-    .writting_2 {
-        width: 200px; 
-        height: 222px; 
-        left: 40px; 
-        top: 230px; 
-        position: absolute; 
-        text-align: center; 
-        font-size: 2vw;
-        text-align: center;
+    .number_1, .number_2, .number_3 { 
+        font-size: 3.5vw; 
     }
 
-    .step-3 {
-        width: 30%;
-        margin: 0 -180px;
-        position: relative;
-        margin-left: 10em;
-        margin-top: -21em;
-    }
-    
-    .group_3 { 
-        left: -1em; 
-        top: 10.2em; 
-    }
-    
-    .location_3 {
-        width: 120px; 
-        height: 242px;  
-        left: 0px; 
-        top: 0px; 
-        position: absolute; 
-    }
-    .number_3 {
-        width: 20px; 
-        height: 68px;
-        left: 53px; 
-        top: 94px; 
-        position: absolute; 
-        text-align: center; 
-        font-size: 23px; 
-        font-family: Lexend; 
-        font-weight: 700; 
-    }
-    
-    .title_3 {
-        width: 250px; 
-        height: 61px; 
-        left: -4em; 
-        top: 360px; 
-        position: absolute; 
-        text-align: center; 
-        font-size: 2.5vw;  
-        font-weight: 700; 
-    }
-    
-    .writting_3 {
-        max-width: 30em;
-        width: 16em; 
-        height: 50px; 
-        left: -5.5em; 
-        top: 420px; 
-        position: absolute; 
-        text-align: center; 
-        font-size: 2vw; 
-    }
-}
-
-/* CSS dành riêng cho ipad ở chế độ dọc */
-@media only screen and (min-width: 767px) and (max-width: 1025px) and (orientation: landscape) {
-    .writting_1 {
-        width: 10em; 
-        height: 120px; 
-        left: 78px; 
-        top: 300px; 
-        word-wrap: break-word;
-        font-size: 2vw;
-        text-align: center;
-        max-width: 40em;
+    .title_1, .title_2, .title_3 { 
+        font-size: 4vw; 
     }
 
-    .title_3 {
-        width: 250px;
-        height: 61px;
-        left: -3em;
-        top: 360px;
-        position: absolute;
-        text-align: center;
-        font-size: 2.5vw;
-        font-weight: 700;
-    }
-}
-
-/* CSS dành riêng cho ipad Pro ở chế độ dọc */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
-    .frame {
-        width: 97.5%;
-    }
-
-    .writting_1 {
-        width: 10em; 
-        height: 120px; 
-        left: 78px; 
-        top: 300px; 
-        word-wrap: break-word;
-        font-size: 2vw;
-        text-align: center;
-        max-width: 40em;
-    }
-
-    .title_3 {
-        width: 250px;
-        height: 61px;
-        left: -3em;
-        top: 360px;
-        position: absolute;
-        text-align: center;
-        font-size: 2.5vw;
-        font-weight: 700;
-    }
-}
-
-/* CSS dành riêng cho ipad Pro ở chế độ ngang */
-@media only screen and (max-width: 1366px) and (min-width: 1024px) and (orientation: landscape) {
-    .frame {
-        padding: 12.2px;
-        width: 98.1%;
-        background-color: #B7D3E9;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 55em;
-    }
-}
-
-/* CSS dành cho ipad Air ở chế độ ngang */
-@media only screen and (max-width: 1180px) and (min-width: 820px) and (orientation: landscape) {
-    .frame {
-        width: 97.9%;
-    }
-
-    .right .date {
-        left: -160px;
-    }
-
-    .right::after {
-        left: -51px;
-    }
-
-    .right {
-        left: 44%;
-    }
-
-    .right .content {
-        margin-left: 10px;
-    }
-    
-    .frame_study {
-        padding: 0.11em;
-        width: 99.6%;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 70em;
+    .writting_1, .writting_2, .writting_3 { 
+        font-size: 3vw; 
     }
 }
 
@@ -365,7 +119,7 @@
 @media (max-width: 767px) {
     .frame {
         padding: 0px;
-        width: 99.9%;
+        max-width: 100%;
         font-size: 1.5vw;
         height: 360px;
     } 
@@ -413,296 +167,137 @@
     }
 
     .frame_study {
-        width: 91.5%;
-        height: 1260px;
-        padding: 1em;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 100%;
+        height: 60em;
+        background-color: #B7D3E9; /* Màu nền */
+        text-align: center;
     }
 
-    .study {
-        margin-left: 0;
-        margin-top: 20em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .text_study {
-        font-size: 2em;
-        margin-top: 0.5em;
-        margin-left: 0;
+    .text_study { 
+        font-size: 2em; 
     }
 
     .study_line {
-        width: 80%; /* Giảm chiều rộng của đường line */
-        height: 2px;
-        margin: -1em 0; /* Điều chỉnh khoảng cách trên và dưới */
-    }
-
-    .step {
-        flex-direction: column;
-        width: 100%;
-        padding: 1em;
-        gap: 10px;
-        margin: 2em 0;
-        position: relative;
-    }
-
-    .step-1 {
-        margin: 0;
-        width: 100%;
-        top: 6em;
-    }
-
-    .step-2 {
-        margin: 0;
-        width: 100%;
-        top: -3em;
-    }
-    .step-3 {
-        margin: 0;
-        width: 100%;
-        top: 4em;
-    }
-
-    .group_1, .group_2 {
-        width: 80%;
+        width: 100px;
+        height: 3px;
+        background-color: black;
         margin: 0 auto;
-        top: -21em;
-        left: 0;
-        position: relative;
+        margin-bottom: 40px;
     }
 
-    .group_3 {
-        width: 80%;
-        margin: 0 auto;
-        top: -21em;
-        left: 0;
-        position: relative;
+    .step { 
+        flex-direction: column; 
+        margin-top: 3em;
     }
 
-    .location_1, .location_2, .location_3 {
-        width: 40%;
-        margin: 0 auto;
-        top: 0;
-        left: 0;
-        position: relative;
+    .step-1, .step-2, .step-3 { 
+        width: 100%; 
     }
 
-    .number_1, .number_3 {
-        position: absolute;
-        font-size: 6.5vw;
-        left: 51%;
-        transform: translateX(-50%);
-        top: 38.60%;
-        display: block;
+    .location_1, .location_2, .location_3 { 
+        width: 80px; 
+        height: 80px; 
+        font-size: 6em;
     }
 
-    .number_2 {
-        position: absolute;
-        font-size: 6.5vw;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 38.60%;
-        display: block; 
+    .number_1, .number_2, .number_3 { 
+        font-size: 6vw; 
     }
 
-    .title_1 {
-        font-size: 5vw;
-        top: 3em;
-        left: 1em;
-        width: 90%;
+    .title_1, .title_2, .title_3 { 
+        font-size: 6vw; 
     }
 
-    .title_2 {
-        font-size: 5vw;
-        top: 5em;
-        left: 1em;
-        width: 90%;
-    }
-
-    .title_3 {
-        font-size: 5vw;
-        top: -7em;
-        left: 2.7em;
-        width: 70%;
-    }
-
-    .writting_1 {
-        font-size: 3.5vw;
-        width: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 6em;
-        position: relative;
-    }
-
-    .writting_2 {
-        font-size: 3.5vw;
-        width: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 125px;
-        position: relative;
-    }
-
-    .writting_3 {
-        font-size: 3.5vw;
-        width: 75%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -23em;
-        position: relative;
+    .writting_1, .writting_2, .writting_3 { 
+        font-size: 5vw; 
     }
 }
 
-/* CSS dành riêng cho moblie màn hình ngang (Ip SE, 6/7/8 plus, Samsung S8+,*/
-@media (max-width: 767px) and (orientation: landscape) {
+/* Mobile ở chế độ ngang */
+@media (min-width: 568px) and (max-width: 767px) {
     .frame {
         padding: 0px;
-        width: 99.9%;
+        max-width: 100%;
         font-size: 1.5vw;
-        height: 590px;
+        height: 60em;
+    } 
+    
+    .bbst_line {
+        width:70px;
+        height: 0px;
+        border: 1px black solid;
+    }
+
+    .frame p {
+        width: 28em;
+        font-size: 3vw;
+        display: flex;
+        text-align: center;
+    }
+
+    .icon {
+        width: 93.4%;
+        padding: 0;
+    }
+
+    .icon img {
+        width: 13em;
+    }
+
+    .container {
+        padding: 20px 18px;
+    }
+
+    .content {
+        font-size: 2.5vw;
+    }
+    
+    .right .date {
+        left: -140px;
+    }
+    
+    .right::after {
+        left: -32px;
+    }
+
+    .right {
+        left: 40%;
     }
 
     .frame_study {
-        width: 95%;
-        height: auto;
-        padding: 1em;
-    }
-    .step {
-        flex-direction: column;
-        width: 100%;
-        padding: 1em;
-        gap: 10px;
-        margin: 2em 0;
-        position: relative;
-    }
-
-    .step-1 {
-        margin: 0;
-        width: 100%;
-        top: 5em;
-    }
-
-    .step-2 {
-        margin: 0;
-        width: 100%;
-        top: 4em;
-    }
-    .step-3 {
-        margin: 0;
-        width: 100%;
-        top: 20em;
-    }
-
-    .group_1, .group_2 {
-        width: 80%;
         margin: 0 auto;
-        top: -21em;
-        left: 0;
-        position: relative;
+        padding: 20px;
+        max-width: 100%;
+        height: 70em;
+        background-color: #B7D3E9; /* Màu nền */
+        text-align: center;
     }
 
-    .group_3 {
-        width: 80%;
-        margin: 0 auto;
-        top: -21em;
-        left: 0;
-        position: relative;
+    .text_study { 
+        font-size: 5vw; 
     }
 
-    .location_1, .location_2, .location_3 {
-        width: 30%;
-        margin: 0 auto;
-        top: 0;
-        left: 0;
-        position: relative;
+    .step-1, .step-2, .step-3 { 
+        width: 100%; 
     }
 
-    .number_1 {
-        position: absolute;
-        font-size: 4vw;
-        left: 50.5%;
-        transform: translateX(-50%);
-        top: 36%;
-        display: block;
+    .location_1, .location_2, .location_3 { 
+        width: 80px; 
+        height: 80px; 
+        font-size: 6em; 
     }
 
-    .number_2, .number_3 {
-        position: absolute;
-        font-size: 4vw;
-        left: 50.4%;
-        transform: translateX(-50%);
-        top: 36%;
-        display: block;
+    .number_1, .number_2, .number_3 { 
+        font-size: 3.5vw; 
     }
 
-    .title_1 {
-        font-size: 4vw;
-        top: 4em;
-        left: 1em;
-        width: 90%;
+    .title_1, .title_2, .title_3 { 
+        font-size: 5vw; 
     }
 
-    .title_2 {
-        font-size: 4vw;
-        top: 5em;
-        left: 1em;
-        width: 90%;
-    }
-
-    .title_3 {
-        font-size: 4vw;
-        top: -4em;
-        left: 5em;
-        width: 60%;
-    }
-
-    .writting_1 {
-        font-size: 3.5vw;
-        width: 60%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 6em;
-        position: relative;
-    }
-
-    .writting_2 {
-        font-size: 3.5vw;
-        width: 60%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 8em;
-        position: relative;
-    }
-
-    .writting_3 {
-        font-size: 3.5vw;
-        width: 75%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: -12em;
-        position: relative;
-    }
-}
-
-/* iPhone XR (1792px x 828px) ở chế độ ngang */
-@media only screen and (max-height: 828px) and (orientation: landscape) {
-    .frame {
-        padding: 0;
-        width: 100%;
-        font-size: 1.4vw;
-        height: 400px; /* Điều chỉnh chiều cao nếu cần */
-    }
-    
-}
-
-/* iPhone 14 Pro Max (2796px x 1290px) ở chế độ ngang */
-@media only screen and (max-height: 1290px) and (orientation: landscape) {
-    .frame {
-        padding: 0;
-        width: 100%;
-        font-size: 1.3vw;
-        height: auto; /* Điều chỉnh chiều cao nếu cần */
+    .writting_1, .writting_2, .writting_3 { 
+        font-size: 4vw; 
     }
 }
