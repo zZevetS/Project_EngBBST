@@ -80,6 +80,9 @@
     margin-right: 2em; /* Khoảng cách giữa các cột */
 }
 
+.highlight {
+    max-width: 100%;
+}
 .container {
     padding: 20px 27px;
     position: relative;
@@ -88,11 +91,11 @@
 }
 
 .left {
-    left: 0;
+    left: 1.5%;
 }
 
 .right {
-    left: 45.8%;
+    left: 45.3%;
 }
 
 .content {
