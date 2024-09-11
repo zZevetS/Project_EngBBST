@@ -103,7 +103,7 @@
     }
 
     .number_1, .number_2, .number_3 { 
-        font-size: 2.8vw; 
+        font-size: 2.4vw; 
     }
 
     .title_1, .title_2, .title_3 { 
@@ -116,13 +116,22 @@
 }
 
 
-/* CSS ipad Pro ở chế độ dọc*/
+/* CSS ipad Pro ở chế độ dọc và ngang */
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
     .right {
         left: 44%;
     }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+    .title_1, .title_2, .title_3 { 
+        font-size: 2.3vw; 
+    }
+
+    .writting_1, .writting_2, .writting_3 { 
+        font-size: 1.7vw; 
+    }
+}
 
 /* Mobile */
 @media (max-width: 767px) {
