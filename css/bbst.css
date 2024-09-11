@@ -80,6 +80,9 @@
     margin-right: 2em; /* Khoảng cách giữa các cột */
 }
 
+.highlight {
+    max-width: 100%;
+}
 .container {
     padding: 20px 27px;
     position: relative;
@@ -88,11 +91,11 @@
 }
 
 .left {
-    left: 0;
+    left: 1.5%;
 }
 
 .right {
-    left: 45.8%;
+    left: 45.3%;
 }
 
 .content {
@@ -216,13 +219,17 @@
     width: 100px; /* Điều chỉnh kích thước của icon */
     height: 100px; /* Điều chỉnh kích thước của icon */
     margin: 0 auto; /* Căn giữa */
-    font-size: 10em;
     color: black;
+}
+
+
+.location_1 i, .location_2 i, .location_3 i {
+    font-size: 0.8em;
 }
 
 /* Số bên trong biểu tượng */
 .number_1, .number_2, .number_3 {
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     display: flex;
     align-items: center;
@@ -278,17 +285,6 @@
     color: #FF5733; /* Đổi màu icon khi hover */
 }
 
-/* Số bên trong biểu tượng */
-.number_1, .number_2, .number_3 {
-    font-size: 40px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: -1em;
-    position: absolute; /* Đặt vị trí của số bên trong icon */
-    transition: color 0.3s ease; /* Thêm transition cho màu */
-}
 
 /* Hiệu ứng hover cho số */
 .step-1:hover .number_1,

@@ -119,7 +119,7 @@
 /* CSS ipad Pro ở chế độ dọc*/
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
     .right {
-        left: 45%;
+        left: 44%;
     }
 }
 
@@ -212,7 +212,7 @@
     }
 
     .number_1, .number_2, .number_3 { 
-        font-size: 5vw; 
+        font-size: 4.5vw; 
     }
 
     .title_1, .title_2, .title_3 { 
