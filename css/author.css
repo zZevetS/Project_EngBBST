@@ -161,8 +161,8 @@
     font-weight: 700;
     border-radius: 20px;
     overflow: hidden;
-    background: #0D4C7F;
-    color: #000;
+    background: #4D9FE3;
+    color: #ffff;
     text-decoration: none; /* Loại bỏ gạch chân của thẻ a */
 }
 
@@ -190,7 +190,7 @@
 .button_bbst a::before {
     content: "";
     color:#000;
-    background: #4D9FE3;
+    background: #0D4C7F;
     width: 120%;
     left: -10%;
     transform: skew(30deg);
