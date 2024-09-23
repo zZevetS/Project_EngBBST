@@ -56,8 +56,9 @@
   margin-right: 4em;
 }
 .element1_para{
-  width: 80%;
+  width: 92%;
   font-size: 2em;
+  text-align: center;
 }
 .element1_product{
   display: flex;
@@ -78,7 +79,7 @@
   display: block;
 }
 .element1_moreinfobtn a {
-  width: 15em;
+  width: 27em;
   outline: none;
   cursor: pointer;
   border: none;
@@ -86,6 +87,7 @@
   margin-bottom: 1em;
   font-size: 25px;
   position: relative;
+  left: 30%;
   display: inline-block;
   letter-spacing: 0.05rem;
   font-weight: 700;
@@ -242,6 +244,7 @@
 .element3_box{
   width: 100%;
   height: max-content;
+  padding-bottom: 2em;
   background-color: #AEB4B2;
 }
 .element3_content{

@@ -78,6 +78,7 @@
       font-family: 'Lexend', sans-serif;
       font-size: 15px;
       position: relative;
+      left: 0;
       display: inline-block;
       letter-spacing: 0.05rem;
       font-weight: 700;
@@ -401,6 +402,7 @@
     margin-bottom: 1em;
     font-size: 15px;
     position: relative;
+    left: 0;
     display: inline-block;
     letter-spacing: 0.05rem;
     font-weight: 700;
@@ -737,6 +739,7 @@
     margin-bottom: 1em;
     font-size: 20px;
     position: relative;
+    left: 0;
     display: inline-block;
     letter-spacing: 0.05rem;
     font-weight: 700;
