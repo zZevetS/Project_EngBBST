@@ -46,10 +46,10 @@ body{
 }
 /* Img */
 .logo_main_header{
-    width: 4em;
-    height: 4em;
+    width: 5.5em;
+    height: 5.5em;
     margin-top: 3px;
-    margin-bottom: 3px;
+    margin-bottom: 1px;
 }
 .logo_main_footer{
     width: 7.8125em;
@@ -136,7 +136,7 @@ body{
     text-align: center;
 }
 .footer_list{
-    font-size: 1.5625em;
+    font-size: 1.43em;
     padding: 1.25em;
 }
 .footer_spit{
