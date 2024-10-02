@@ -46,7 +46,7 @@
     }
     .element1_para {
       width: 100%;
-      font-size: 0.98em;
+      font-size: 0.86em
     }
     .element1_item-img {
       width: 100%;
@@ -69,16 +69,16 @@
     }
     
     .element1_moreinfobtn a {
-      width: 68%;
+      margin-left: 0em;
+      width: 55%;
       outline: none;
       cursor: pointer;
       border: none;
-      padding: 1rem 3rem;
+      padding: 0.5rem 1.3rem;
       margin-bottom: 1em;
       font-family: 'Lexend', sans-serif;
-      font-size: 15px;
+      font-size: 10px;
       position: relative;
-      left: 0;
       display: inline-block;
       letter-spacing: 0.05rem;
       font-weight: 700;
@@ -151,11 +151,11 @@
     }
     
     .element2_moreinfobtn a {
-      width: 52%;
+      width: 55%;
       outline: none;
       cursor: pointer;
       border: none;
-      padding: 0.5rem 1.3rem;
+      padding: 9px 4px;
       margin-bottom: 1em;
       font-family: 'Lexend', sans-serif;
       font-size: 10px;
@@ -248,11 +248,11 @@
       align-items: center; 
     }
     .element3_moreinfobtn a {
-      width: 50%;
+      width: 55%;
       outline: none;
       cursor: pointer;
       border: none;
-      padding: 0.5rem 1.3rem;
+      padding: 9px 4px;
       margin-bottom: 1em;
       font-family: 'Lexend', sans-serif;
       font-size: 10px;
@@ -327,7 +327,7 @@
   .element1_para {
     text-align: center;
     width: 100%;
-    font-size: 0.87em;
+    font-size: 13.2px;
     margin: auto;
   }
   .element1_product {
@@ -393,6 +393,7 @@
     align-items: center;
   } 
   .element1_moreinfobtn a {
+    margin-left: 0em;
     width: 15em;
     outline: none;
     cursor: pointer;
@@ -511,7 +512,7 @@
     cursor: pointer;
     border: none;
     padding: 0.5rem 3rem;
-    margin-top: 3em;
+    margin-top: 1em;
     margin-bottom: 1em;
     font-size: 15px;
     position: relative;
@@ -736,6 +737,7 @@
     border: none;
     padding: 0.5em 3rem;
     margin-top: 3em;
+    margin-left: 0em;
     margin-bottom: 1em;
     font-size: 20px;
     position: relative;
