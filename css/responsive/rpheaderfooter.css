@@ -162,13 +162,11 @@
         justify-content: center; 
         align-items: center; 
     }
-    
     .logo_main_footer {
         width: 5em;
         height: 5em;
         margin-left: 0%;
     }
-    s
     .copyright_text {
         color: white;
         text-align: end;
