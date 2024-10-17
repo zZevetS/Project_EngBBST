@@ -64,7 +64,8 @@
     }
     .certificate_content_right{
         display: flex;
-        margin: 0 42px;
+        width: 100%;
+        justify-content: center;
     }
     .banner{
         margin-top: 1350px;
@@ -147,7 +148,7 @@
     }
     .certificate_content{
         display: block;
-        width: 750px;
+        width: 100%;
     }
     .certificate_content_left {
         width: 100%;
@@ -160,7 +161,8 @@
     }
     .certificate_content_right{
         display: flex;
-        margin: 0 42px;
+        justify-content: center;
+        width: 110%;
     }
     .banner{
         margin-top: 68vw;
@@ -254,7 +256,7 @@
 
     .certificate_content {
         display: block;
-        width: 750px;
+        width: 110%;
          /* Căn chỉnh vào giữa */
     }
 
@@ -282,6 +284,7 @@
     .certificate_content_right {
         display: flex;
         margin: 0 auto; /* Căn lề trái và phải 40px */
+        justify-content: center;
     }
 
     .bbst_footer {
@@ -400,7 +403,9 @@
     }
     .certificate_content_right {
         display: flex;
-        margin: 0 100px;
+        /* margin: 0 100px; */
+        width: 130%;
+        justify-content: center;
     }
     
     .banner {
@@ -633,7 +638,7 @@
     
     .certificate_content_left li {
         font-size: var(--fontsize-Mobile);
-        padding: 0 30px 0 0;
+        padding: 0 40px 0 0;
         list-style: none;
     }
     .content_footer {
@@ -659,12 +664,19 @@
     .button_bbst a {
         margin: 20px 0;
         width: 40vw;
-        height: 40px;
+        height: 2vw;
         text-align: center;
         
     }
     .button_bbst a span{
-        font-size: 5vw;
+        font-size: 4vw;
+        
+    }
+    .button_bbst a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
     .bbst_footer{
         display: inline-block;
