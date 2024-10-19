@@ -229,6 +229,7 @@
     }
     .description
     {
+        text-align: justify;
         font-size: 25px;
         margin-left: 110px;
         margin-right: 110px;
