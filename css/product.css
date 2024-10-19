@@ -62,6 +62,7 @@
     }
     .container_left_text2
     {
+        text-align: justify;
         font-size: 25px;
         margin-left: 40px;
     }
