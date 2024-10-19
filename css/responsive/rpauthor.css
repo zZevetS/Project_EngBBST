@@ -689,3 +689,695 @@
 
 
 
+
+/* iPad Mini ở chế độ dọc */
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+    /* CSS dành riêng cho iPad Mini ở chế độ dọc */
+    
+    .container_header {
+        width: 100%;
+        max-width: 820px;
+        margin: 0 auto; 
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Mini */
+    .container_header{
+        width: 100%;
+        max-width: 820px;
+        margin: 0 auto; 
+    }
+    
+    .container_content_author{
+        display: block;
+    }
+    .content_left {
+        width: 50%;
+        padding:0 30px;
+    }
+    
+    .content_left_circle{
+        transform: translate(-65%,-50%);
+        left: 100%;
+
+    }
+    .content_left_img{
+        
+    }
+    .container_content{
+        padding: 0 24px;
+        height: 1350px;
+        margin-right: 0;
+    }
+    .certificate_content_left ul {
+        padding: 0 30px;
+    }
+    .content_about_author{
+        display: block;
+        width: 750px;
+    }
+    .content_about_author p{
+        margin-right: 30px;
+    }
+    .container_certificate{
+
+    }
+    .certificate_content{
+        display: block;
+        width: 750px;
+    }
+    .certificate_content_left {
+        width: 100%;
+    }
+    .container_certificate_name {
+        width: 80%;
+    }
+    .container_certificate_name ul{
+        margin: 0 30px;
+    }
+    .certificate_content_right{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .banner{
+        margin-top: 1350px;
+    }
+    .banner_author{
+       
+    }
+    .bbst_footer{
+        display: inline-block;
+    }
+    .bbst_name_content{
+        width: 100%;
+    }
+    .content_footer{
+        padding: 0 40px;
+    }
+    .button_bbst{
+        width: 100%;
+    }
+    .button_bbst a{
+        margin: 40px 0 0 0;
+    }
+    
+}
+
+/* iPad Air ở chế độ dọc */
+@media only screen and (min-width: 820px) and (max-width: 1180px) and (orientation: portrait) {
+    /* CSS dành riêng cho iPad Air ở chế độ dọc */
+    .container{
+        overflow: hidden;
+    }
+    .container_header {
+        width: 100%;
+        max-width: 820px;
+        margin: 0 auto; 
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Mini */
+    .container_header{
+        width: auto;
+        /* max-width: 820px; */
+        margin: 0 auto; 
+        overflow: hidden;
+    }
+    
+    .container_content_author{
+        display: block;
+    }
+    .content_left {
+        width: 50%;
+        padding:0 30px;
+    }
+    
+    .content_left_circle{
+        transform: translate(-83%,-50%);
+        left: 100%;
+        z-index: 1;
+
+    }
+    .content_left_img{
+        transform: translate(50%, 2%);
+
+    }
+    .container_content{
+        padding: 0 24px;
+        height: 1350px;
+        margin-right: 0;
+    }
+    .certificate_content_left ul {
+        padding: 0 30px;
+    }
+    .content_about_author{
+        display: block;
+        width: 750px;
+    }
+    .content_about_author p{
+        margin-right: 30px;
+    }
+    .container_certificate{
+
+    }
+    .certificate_content{
+        display: block;
+        width: 100%;
+    }
+    .certificate_content_left {
+        width: 100%;
+    }
+    .container_certificate_name {
+        width: 80%;
+    }
+    .container_certificate_name ul{
+        margin: 0 30px;
+    }
+    .certificate_content_right{
+        display: flex;
+        justify-content: center;
+        width: 110%;
+    }
+    .banner{
+        margin-top: 68vw;
+    }
+    .banner_author{
+       
+    }
+    .bbst_footer{
+        display: inline-block;
+    }
+    .bbst_name_content{
+        width: 100%;
+    }
+    .content_footer{
+        padding: 0 40px;
+    }
+    .button_bbst{
+        width: 100%;
+    }
+    .button_bbst a{
+        margin: 40px 0 0 0;
+    }
+    .author_line{
+        height: 2px;
+        width: 15vw;
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Air */
+}
+/* iPad Air ở chế độ ngang */
+/* CSS dành riêng cho iPad Air ở chế độ ngang */
+@media only screen and (min-width: 769px) and (max-width: 1180px) and (orientation: landscape) {
+    .container{
+        overflow: hidden;
+    }
+    .container_author h1{
+        font-size: 2vw;
+    }
+    .container_header {
+        width: 100%;
+        max-width: 1180px;
+        margin: 0 auto; 
+    }
+
+    .container_content_author {
+        display: block;
+        /* Căn lề trái và phải 40px */
+    }
+
+    .content_left {
+        width: 50%;
+        padding: 0 40px; /* Căn lề trái và phải 40px */
+    }
+
+    .content_left_circle {
+        transform: translate(-18%, -50%); /* Căn chỉnh element vào giữa */
+        left: 50%;
+        z-index: 1;
+    }
+
+    .content_left_img {
+        /* Thêm các quy tắc CSS nếu cần */
+        transform: translate(45%,0%);
+    }
+    .content_right h2{
+        letter-spacing: 5;
+        font-size: 2vw;
+        text-transform: uppercase;
+    }
+    .container_content {
+        padding: 0 40px; /* Căn lề trái và phải 40px */
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .certificate_content_left ul {
+        padding: 0 40px; /* Căn lề trái và phải 40px */
+    }
+
+    .content_about_author {
+        display: block;
+        width: 750px;
+        margin: 0 auto; /* Căn chỉnh vào giữa */
+    }
+
+    .content_about_author p {
+        margin-right: 40px; 
+        width: 85vw;/* Căn lề phải 40px */
+    }
+
+    
+
+    .certificate_content {
+        display: block;
+        width: 110%;
+         /* Căn chỉnh vào giữa */
+    }
+
+    .certificate_content_left {
+        width: 100%;
+        /* Căn lề trái và phải 40px */
+    }
+
+    .container_certificate_name {
+        
+        margin: 0 auto; /* Căn chỉnh vào giữa */
+    }
+    .container_certificate_name h1{
+        font-size: 2vw;
+    }
+
+    .container_certificate_name ul {
+        margin: 0 40px; /* Căn lề trái và phải 40px */
+    }
+    .certificate_content_left li{
+        width: 85vw;
+        font-size: 2vw;
+    }
+
+    .certificate_content_right {
+        display: flex;
+        margin: 0 auto; /* Căn lề trái và phải 40px */
+        justify-content: center;
+    }
+
+    .bbst_footer {
+        display: inline-block;
+        margin: 0 auto; /* Căn chỉnh vào giữa */
+    }
+    .bbst_name h1 {
+        font-size: 2vw;
+        text-transform: uppercase;
+        letter-spacing: 5;
+    }
+    .bbst_name_content {
+        width: 100%;
+        
+    }
+    .bbst_name_content p {
+        font-size: 2vw!important;
+    }
+
+    .content_footer {
+        padding: 0 40px; /* Căn lề trái và phải 40px */
+    }
+
+    .button_bbst {
+        width: 100%;
+        margin: 40px auto 0 auto; /* Căn chỉnh vào giữa */
+    }
+
+    .button_bbst a {
+        margin: 40px 0 0 0;
+        text-align: center; /* Căn chữ vào giữa */
+    }
+    
+}
+/* CSS dành riêng cho iPad Pro ở chế độ ngang */
+/* CSS dành riêng cho iPad Pro ở chế độ dọc */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+    /* CSS dành riêng cho iPad Pro ở chế độ dọc */
+    .container {
+        overflow: hidden;
+    }
+    .container_header {
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto; 
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Pro */
+    .container_header {
+        width: auto;
+        margin: 0 auto; 
+        overflow: hidden;
+    }
+    
+    .container_content_author {
+        display: block;
+    }
+    .content_left {
+        width: 50%;
+        padding: 0 30px;
+    }
+    
+    .content_left_circle {
+        transform: translate(-68%, -50%);
+        left: 100%;
+        z-index: 1;
+    }
+    .content_left_img{
+        transform: translate(48%,0%);
+    }
+    
+    .container_content {
+        padding: 0 24px;
+        height: 1350px;
+        margin-right: 0;
+    }
+    
+    .certificate_content_left ul {
+        padding: 0 30px;
+    }
+    
+    .content_about_author {
+        display: block;
+        width: 750px;
+    }
+    
+    .content_about_author p {
+        margin-right: 30px;
+        font-size: var(--fontsize-Tablet);
+        width: 90vw;
+    }
+    
+    .certificate_content {
+        display: block;
+        width: 750px;
+    }
+    
+    .certificate_content_left {
+        width: 100%;
+    }
+    .certificate_content_left ul li{
+        font-style: none;
+        font-size: var(--fontsize-Tablet);
+        width: 90vw;
+
+    }
+    .container_certificate_name {
+        width: 80%;
+    }
+    
+    .container_certificate_name ul {
+        margin: 0 30px;
+        
+    }
+    .container_certificate_name ul li{
+        
+    }
+    .certificate_content_right {
+        display: flex;
+        /* margin: 0 100px; */
+        width: 130%;
+        justify-content: center;
+    }
+    
+    .banner {
+        margin-top: 105vw;
+    }
+    
+    .bbst_footer {
+        display: inline-block;
+    }
+    
+    .bbst_name_content {
+        width: 100%;
+    }
+    
+    .content_footer {
+        padding: 0 40px;
+    }
+    
+    .button_bbst {
+        width: 100%;
+    }
+    
+    .button_bbst a {
+        margin: 40px 0 0 0;
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Pro */
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1367px) and (orientation: landscape) {
+    /* CSS dành riêng cho iPad Pro ở chế độ ngang */
+    .container {
+        overflow: hidden;
+    }
+    .container_header {
+        width: 100%;
+        max-width: 1366px;
+        margin: 0 auto; 
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Pro */
+    .container_header {
+        width: 100%;
+        margin: 0 auto; 
+        overflow: hidden;
+    }
+    .content_right h2{
+        width: 85vw;
+        font-size: 2vw;
+        text-transform: uppercase;
+    }
+    .container_content_author {
+        display: block;
+    }
+    .content_left {
+        width: 50%;
+        padding: 0 30px;
+    }
+    
+    .content_left_circle {
+        transform: translate(-68%, -50%);
+        left: 100%;
+    }
+    .content_left_img{
+        transform: translate(40%,0);
+    }
+    .container_content {
+        padding: 0 24px;
+        height: 82vw;
+        margin-right: 0;
+    }
+    
+    .certificate_content_left ul {
+        padding: 0 30px;
+    }
+    
+    .content_about_author {
+        display: block;
+        width: 750px;
+    }
+    
+    .content_about_author p {
+        margin-right: 30px;
+        width: 85vw;
+        font-size: 2vw;
+    }
+    
+    .certificate_content {
+        display: block;
+        width: 750px;
+    }
+    
+    .certificate_content_left {
+        width: 100%;
+    }
+    .certificate_content_left ul li{
+        width: 85vw;
+        font-size: 2vw;
+    }
+    .container_certificate_name {
+        width: 80%;
+    }
+    .container_certificate_name h1{
+        width: 85vw;
+        font-size: 2vw;
+    }
+    .container_certificate_name ul {
+        margin: 0 30px;
+    }
+    
+    .certificate_content_right {
+        display: flex;
+        margin: 0 42px;
+        width: 90vw;
+    }
+    
+    .banner {
+        margin-top: 80vw;
+    }
+    
+    .bbst_footer {
+        display: inline-block;
+    }
+    
+    .bbst_name_content {
+        width: 100%;
+    }
+    .bbst_name h1{
+        width: 85vw;
+        font-size: 2vw;
+    }
+    
+    .content_footer {
+        padding: 0 40px;
+    }
+    .content_footer p{
+        width: 85vw;
+        font-size: 2vw;
+    }
+    
+    .button_bbst {
+        width: 100%;
+    }
+    
+    .button_bbst a {
+        margin: 40px 0 0 0;
+    }
+    /* Các quy tắc CSS khác phù hợp cho iPad Pro */
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    
+    .container_content {
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .container_content_author {
+        flex-direction: column;
+    }
+
+    .author_name h1 {
+        font-size: var(--fontsize-Mobile);
+        letter-spacing: 2px;
+    }
+    .author_line {
+        width: 40vw;
+        height: 2px;
+    }
+    .content_left, .content_right {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .content_left_circle {
+        height: auto;
+        width: 90%;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .content_left_img{
+        height: auto;
+        width: 90%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 10px;
+    }
+
+    .content_right h2 {
+        font-size: var(--fontsize-Mobile);
+        text-transform: uppercase;
+        letter-spacing: 5;
+        margin: 20px 0;
+    }
+
+    .content_about_author {
+        width: 100%;
+    }
+
+    .content_about_author p {
+        font-size: var(--fontsize-Mobile);
+        padding: 0 30px 0 0;
+    }
+    .container_certificate_name h1{
+        font-size: var(--fontsize-Mobile);
+        text-transform: uppercase;
+        letter-spacing: 5;
+        width: 70vw;
+    }
+
+    .certificate_content {
+        flex-direction: column;
+    }
+
+    .container_certificate {
+        margin-right: 0;
+        margin-top: 50px;
+    }
+    
+    .certificate_content_left, .certificate_content_right {
+        width: 100%;
+    }
+    .certificate_content_left ul{
+        padding: 0;
+    }
+    
+    .certificate_content_left li {
+        font-size: var(--fontsize-Mobile);
+        padding: 0 40px 0 0;
+        list-style: none;
+    }
+    .content_footer {
+        padding: 0 20px;
+    }
+    .certificate_content_right_up, .certificate_content_right_down{
+        padding: 0 30px 0 0;
+    }
+    .bbst_name h1{
+        font-size: var(--fontsize-Mobile);
+        text-transform: uppercase;
+        letter-spacing: 5;
+    }
+    .bbst_name_content {
+        width: 100%;
+    }
+
+    .button_bbst {
+        width: 100%;
+        
+    }
+
+    .button_bbst a {
+        margin: 20px 0;
+        width: 40vw;
+        height: 2vw;
+        text-align: center;
+        
+    }
+    .button_bbst a span{
+        font-size: 4vw;
+        
+    }
+    .button_bbst a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .bbst_footer{
+        display: inline-block;
+    }
+    .bbst_name_content p{
+        font-size: var(--fontsize-Mobile);
+    }
+    /* ssss */
+}
+
+
+
+
