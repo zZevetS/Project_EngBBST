@@ -87,8 +87,8 @@
     /* Cái khung */
     .container_rightt
     {
-        width: 11em;
-        margin-left: 1px;
+        width: 9.5em;
+        margin-left: 0px
     }
     
     /* chỉnh khung */
@@ -109,7 +109,7 @@
     }
     .container_right_booktext2
     {
-        font-size: 10px; 
+        font-size: 8.56px;
         margin-left: 0.2em;  /*Chỉnh thông tin sách chi tiết  */
     }
     .container_right_book3
@@ -161,7 +161,7 @@
 
     /* Nút mua ngay */
     .element1_moreinfobtn a {
-        width: 17em;
+        width: 16em;
         outline: none;
         cursor: pointer;
         border: none;
