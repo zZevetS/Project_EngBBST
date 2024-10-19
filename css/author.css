@@ -65,7 +65,8 @@
     width: 70%; 
 }
 .content_about_author p{
-    font-size: 2vw;
+    font-size: 1.8vw;
+    text-align: justify;
 }
 .container_certificate{
     margin-top: 90px;
@@ -76,9 +77,10 @@
 }
 .certificate_content_left ul{
     margin-top: 40px;
+    text-align: justify;
 }
 .certificate_content_left li{
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin: 20px 0;
 }
 .container_certificate_name h1{
@@ -123,6 +125,7 @@
 .content_footer_bbst{
     margin-top: 50px;
     width: 100%;
+    text-align: justify;
 }
 .bbst_name_content p {
     font-size: 30px;
