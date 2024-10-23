@@ -159,3 +159,6 @@ body{
     padding-right: 12px;
     padding-bottom: 12px;
 }
+.footer_listitem_logo-mobile{
+    display: none;
+}
