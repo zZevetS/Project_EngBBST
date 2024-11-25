@@ -870,7 +870,14 @@
   } 
 }
 
-
+@media only screen and (width: 430px){ 
+  .element3_para {
+    text-align: center;
+    font-size: 6.2px;
+    width: 19em;
+    padding-left: 6px;
+  }
+}
 
 
 
