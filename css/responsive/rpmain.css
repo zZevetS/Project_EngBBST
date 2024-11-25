@@ -869,7 +869,7 @@
     text-align: center;
   } 
 }
-
+/* 14pm */
 @media only screen and (width: 430px){ 
   .element3_para {
     text-align: center;
@@ -878,9 +878,12 @@
     padding-left: 6px;
   }
 }
-
-
-
+/* A51/71 */
+@media only screen and (width: 412px){
+  .element3_content-child {
+    width: 28%;
+  }
+}
 
 
 
