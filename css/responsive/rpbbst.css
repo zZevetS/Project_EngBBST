@@ -185,26 +185,29 @@
 
     .container {
         padding: 20px 18px;
+        width: 56%;
     }
 
     .content {
         font-size: 2.5vw;
+        text-align: left;
     }
     
     .content p {
         font-size: 2.7vw;
+        text-align: justify;
     }
 
     .right .date {
-        left: -140px;
+        left: -113px;
     }
     
     .right::after {
-        left: -32px;
+        left: -21px;
     }
 
     .right {
-        left: 40%;
+        left: 36%;
     }
 
     .frame_study {
