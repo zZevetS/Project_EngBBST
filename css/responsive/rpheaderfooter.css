@@ -118,7 +118,7 @@
     }
     .container_footer{
         width: 100%;
-        height: 19em;
+        height: 100%;
     }
     .footer{
         display: flex;
@@ -129,24 +129,23 @@
         width: 100%;
         margin: 0px;
     }
+    .footer_right{
+        display: none;
+    }
+    .footer_right-mobile{
+        display: block;
+        width: 100%;
+    } 
     .footer_para{
         width: 100%;
         font-size: 0.6em;
         text-align: center;
-    }
-    .footer_right{
-        width: 85%;
-        margin: 1em;
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
     }
     .footer_list{
         font-size: 0.8em;
         padding: 0em;
     }
     .footer_listitem{
-        text-align: center;
         font-size: 0.7em;
         margin-top: 14px;
         width: 100%;
@@ -158,11 +157,12 @@
         background-color: white;
     }
     .res_width {
+        margin-top: 19px;
         width: 100%;
         height: max-content;
         display: flex;
-        justify-content: center; 
-        align-items: center; 
+        justify-content: center;
+        align-items: center;
     }
     .logo_main_footer {
         width: 5em;
@@ -176,20 +176,54 @@
         padding-right: 10px;
         padding-bottom: 10px;
         font-size: 10px;
+    } 
+    .aboutus_droplist_fmobile{
+        width: 100%;
+        border-bottom: 1px solid #ddd;
     }
-    .footer_listitem_logo{
-        width: 12.5em;
-        height: 5em;
+    .partnership_droplist_fmobile{
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+    .contact_droplist_fmobile{
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+    .droplist_header_fmobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    .droplist_header_fmobile .icon1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .droplist_header_fmobile .icon2 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .droplist_header_fmobile .icon3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .droplist_header_fmobile span{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .dropdown_menu-fmobile {
+        list-style: none;
+        margin: 0;
+        padding: 0;
         display: none;
     }
-    .footer_listitem_logo-mobile{
-        font-size: 9px;
-        display: block;
-        align-content: center;
-        color: white;
-        text-decoration: none;
+    .dropdown_menu-fmobile li {
+        padding: 8px 0 14px 10px;
+        border-top: 1px solid #ddd;
     }
-    
+    .footer_listitem_logo-mobile{
+        display: block;
+    }
 }
 /* Tablet: width > 667 and width < 1025px  */
 @media only screen and (min-width: 666px) and (max-width: 1025px) {
@@ -350,6 +384,6 @@
 @media only screen and (width: 412px){
     .container_footer {
         width: 100%;
-        height: 20em;
+        height: 100%;
     }
 }

@@ -162,3 +162,7 @@ body{
 .footer_listitem_logo-mobile{
     display: none;
 }
+/* MOBILE RES */
+.footer_right-mobile{
+    display: none;
+}
