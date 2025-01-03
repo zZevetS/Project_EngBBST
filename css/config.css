@@ -1,6 +1,8 @@
 :root{
-    --fontsize-Mobile: 18px;
-    --fontsize-Tablet: 3vw;
+    --fontsize-Mobile: 3vw;
+    --fontsize-title-Mobile: 3.5vw;
+    --fontsize-Tablet: 2.5vw;
+    --fontsize-title-table: 3vw;
 }
 
 body{
