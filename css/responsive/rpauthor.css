@@ -395,7 +395,7 @@
     .content_about_author p {
         margin-right: 30px;
         font-size: var(--fontsize-Tablet);
-        width: 90vw;
+        width: 94vw;
     }
     
     .certificate_content {
@@ -409,7 +409,7 @@
     .certificate_content_left ul li{
         font-style: none;
         font-size: var(--fontsize-Tablet);
-        width: 90vw;
+        width: 91vw;
 
     }
     .container_certificate_name {
@@ -669,7 +669,7 @@
 
     .content_about_author p {
         font-size: var(--fontsize-Mobile);
-        padding: 0 30px 0 0;
+        padding: 0px 36px 0 0;
     }
     .container_certificate_name h1{
         font-size: var(--fontsize-Mobile);
