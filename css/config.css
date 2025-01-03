@@ -1,7 +1,6 @@
 :root{
-    --fontsize-Mobile: 4vw;
+    --fontsize-Mobile: 18px;
     --fontsize-Tablet: 3vw;
-
 }
 
 body{
@@ -139,12 +138,12 @@ body{
     font-size: 1.43em;
     padding: 1.25em;
 }
-.footer_spit{
+/* .footer_spit{
     width: 0.125em; 
     height: 12.5em; 
     margin: 0 10px;
     background-color: white;
-}
+} */
 .footer_listitem{
     font-size: 0.9em;
     margin-top: 1.25em;

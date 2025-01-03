@@ -257,9 +257,9 @@
         width: 100%;
         margin: 0em 0em 0em 0em ;
     }
-    .footer_right{
+    .footer_right {
         width: 100%;
-        margin: 3.125em 0.125em 3.125em 0em;
+        margin: 1.125em 0.125em 1.125em 0em;
         list-style: none;
         display: flex;
         justify-content: space-around;
@@ -298,6 +298,12 @@
         padding-right: 0.75em;
     }
 }
+/* Iphone SE */
+@media only screen and (width: 667px){
+    .header_fontsize {
+        font-size: 13px;
+    }
+}
 @media only screen and (min-width: 1179px) and (max-width: 1367px){
     .header_fontsize {
         font-size: 1em;
@@ -326,13 +332,13 @@
         font-size: 10px;
         text-align: center;
     }
-    .footer_list{
-        font-size: 1.2em;
+    .footer_list {
+        font-size: 18px;
         padding: 1em;
     }
     .container_footer {
         width: 100%;
-        height: 19.5em;
+        height: 16.5em;
     }
     .footer_spit{
         display: none;
@@ -385,5 +391,43 @@
     .container_footer {
         width: 100%;
         height: 100%;
+    }
+}
+/* Surface Pro6 */
+@media only screen and (width: 1368px){
+    /* Header */
+    .header_fontsize {
+        font-size: 1.3em;
+    }
+    /* Footer */
+    .footer_para {
+        text-align: center;
+        width: 36em;
+    }
+    .footer_left {
+        margin: 26px;
+    }
+    .footer_right {
+        width: 50%;
+        margin: 2.125em;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    .container_footer {
+        width: 100%;
+        height: 22em;
+    }
+    .footer_list {
+        font-size: 21px;
+        padding: 1.25em;
+    }
+}
+/* ipad pro */
+@media only screen and (width: 1024px){
+    .lg_footer {
+        width: 4em;
+        height: 4em;
+        margin-left: 42%;
     }
 }

@@ -884,6 +884,65 @@
     width: 28%;
   }
 }
-
+/* Surface Pro6 */
+@media only screen and (width: 1368px){
+  .element1_moreinfobtn a {
+    width: 17em;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 0.3em;
+    font-size: 20px;
+    margin-left: 4em;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #4D9FE3;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .element1_para {
+    width: 93%;
+    font-size: 1.7em;
+    text-align: justify;
+  }
+  .element2_img {
+    width: 50em;
+    height: 29em;
+  }
+  .element2_box {
+    margin-top: 1em;
+    margin-right: 2em;
+  }
+  .element2_para {
+    text-align: justify;
+    margin-top: 1.5em;
+    font-size: 1.56em;
+    margin-left: 1.2em;
+    margin-right: 0.2em;
+  }
+  .element2_text {
+    margin-left: 27px;
+  }
+  .element3_title{
+    font-size: 2em;
+  }
+  .element3_moreinfobtn a{
+    padding: 12px 48px;
+    font-size: 17px;
+  }
+  .element2_moreinfobtn a{
+    padding: 12px 48px;
+    font-size: 17px;
+  }
+  .element1_moreinfobtn a{
+    padding: 12px 48px;
+    font-size: 17px;
+  }
+}
 
 
