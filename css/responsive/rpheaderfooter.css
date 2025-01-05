@@ -394,7 +394,7 @@
         height: 100%;
     }
 }
-/* Surface Pro6 */
+/* Surface Pro6 ngang */
 @media only screen and (width: 1368px){
     /* Header */
     .header_fontsize {
@@ -424,6 +424,22 @@
         padding: 1.25em;
     }
 }
+/* Surface Pro6 doc */
+@media only screen and (width: 912px){
+    .footer_list {
+        width: 9em;
+        text-align: start;
+        font-size: 0.4em;
+    }
+    .lg_footer {
+        margin-left: 42%;
+        width: 4em;
+        height: 4em;
+        margin-top: 20px;
+    }
+}
+
+
 /* ipad pro */
 @media only screen and (width: 1024px){
     .lg_footer {
