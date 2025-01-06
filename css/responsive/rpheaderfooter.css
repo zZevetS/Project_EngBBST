@@ -305,6 +305,52 @@
         font-size: 13px;
     }
 }
+/* 1026px to  1439px */
+@media only screen and (min-width: 1026px) and (max-width: 1439px){
+    .header_fontsize {
+        font-size: 17px;
+    }
+    .footer_left
+    {
+        margin: 12px;
+    }
+    .footer_para {
+        text-align: center;
+        font-size: 12px;
+    }
+    .logo_main_footer {
+        width: 5.8125em;
+        height: 5.8125em;
+        margin-left: 40%;
+    }
+    .footer_list {
+        font-size: 15px;
+        padding: 1.25em;
+    }
+    .copyright_text {
+        color: white;
+        text-align: end;
+        padding-right: 12px;
+        padding-bottom: 12px;
+        font-size: 15px;
+    }
+    .container_footer {
+        width: 100%;
+        height: 19em;
+    }
+    .footer_list {
+        font-size: 14px;
+        padding: 1.25em;
+    }
+}
+/* 1026px to 1091px */
+@media only screen and (min-width: 1026px) and (max-width: 1091px){
+    .footer_para {
+        text-align: center;
+        font-size: 11px;
+    }
+}
+
 @media only screen and (min-width: 1179px) and (max-width: 1367px){
     .header_fontsize {
         font-size: 1em;
@@ -438,8 +484,6 @@
         margin-top: 20px;
     }
 }
-
-
 /* ipad pro */
 @media only screen and (width: 1024px){
     .lg_footer {
